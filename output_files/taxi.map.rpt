@@ -1,5 +1,5 @@
 Analysis & Synthesis report for taxi
-Sun Apr 20 19:50:33 2025
+Sun Apr 20 21:33:40 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -19,31 +19,40 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
  11. General Register Statistics
  12. Inverted Register Statistics
  13. Multiplexer Restructuring Statistics (Restructuring Performed)
- 14. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod11
- 15. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div10
- 16. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod10
- 17. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div9
- 18. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod9
- 19. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div8
- 20. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod8
- 21. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div0
- 22. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod0
- 23. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div1
- 24. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod1
- 25. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div2
- 26. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod2
- 27. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div3
- 28. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod3
- 29. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div4
- 30. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod4
- 31. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div5
- 32. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod5
- 33. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div6
- 34. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod6
- 35. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div7
- 36. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod7
- 37. Elapsed Time Per Partition
- 38. Analysis & Synthesis Messages
+ 14. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod12
+ 15. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod13
+ 16. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod17
+ 17. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div10
+ 18. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod11
+ 19. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div13
+ 20. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod16
+ 21. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div9
+ 22. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod10
+ 23. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div12
+ 24. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod15
+ 25. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div8
+ 26. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod9
+ 27. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div11
+ 28. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod14
+ 29. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div0
+ 30. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod0
+ 31. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod8
+ 32. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div1
+ 33. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod1
+ 34. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div2
+ 35. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod2
+ 36. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div3
+ 37. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod3
+ 38. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div4
+ 39. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod4
+ 40. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div5
+ 41. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod5
+ 42. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div6
+ 43. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod6
+ 44. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div7
+ 45. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod7
+ 46. Elapsed Time Per Partition
+ 47. Analysis & Synthesis Messages
 
 
 
@@ -69,16 +78,16 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Apr 20 19:50:33 2025           ;
+; Analysis & Synthesis Status        ; Successful - Sun Apr 20 21:33:40 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; taxi                                            ;
 ; Top-level Entity Name              ; taxi                                            ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 7,863                                           ;
-;     Total combinational functions  ; 7,861                                           ;
-;     Dedicated logic registers      ; 152                                             ;
-; Total registers                    ; 152                                             ;
-; Total pins                         ; 80                                              ;
+; Total logic elements               ; 9,162                                           ;
+;     Total combinational functions  ; 9,090                                           ;
+;     Dedicated logic registers      ; 229                                             ;
+; Total registers                    ; 229                                             ;
+; Total pins                         ; 81                                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0                                               ;
 ; Embedded Multiplier 9-bit elements ; 0                                               ;
@@ -206,6 +215,10 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; db/alt_u_div_k5f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_k5f.tdf                                     ;         ;
 ; db/add_sub_lkc.tdf               ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/add_sub_lkc.tdf                                       ;         ;
 ; db/add_sub_mkc.tdf               ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/add_sub_mkc.tdf                                       ;         ;
+; db/lpm_divide_sio.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_sio.tdf                                    ;         ;
+; db/abs_divider_6ag.tdf           ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/abs_divider_6ag.tdf                                   ;         ;
+; db/alt_u_div_ove.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_ove.tdf                                     ;         ;
+; db/lpm_abs_hq9.tdf               ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_abs_hq9.tdf                                       ;         ;
 ; db/lpm_divide_eem.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_eem.tdf                                    ;         ;
 ; db/sign_div_unsign_olh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/sign_div_unsign_olh.tdf                               ;         ;
 ; db/alt_u_div_i2f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_i2f.tdf                                     ;         ;
@@ -221,6 +234,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; db/lpm_divide_u7m.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_u7m.tdf                                    ;         ;
 ; db/sign_div_unsign_5nh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/sign_div_unsign_5nh.tdf                               ;         ;
 ; db/alt_u_div_c5f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_c5f.tdf                                     ;         ;
+; db/lpm_divide_05m.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_05m.tdf                                    ;         ;
+; db/sign_div_unsign_7kh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/sign_div_unsign_7kh.tdf                               ;         ;
+; db/alt_u_div_gve.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_gve.tdf                                     ;         ;
 ; db/lpm_divide_0gm.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_0gm.tdf                                    ;         ;
 ; db/sign_div_unsign_anh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/sign_div_unsign_anh.tdf                               ;         ;
 ; db/alt_u_div_m5f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_m5f.tdf                                     ;         ;
@@ -248,34 +264,34 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+---------+
 
 
-+----------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                          ;
-+---------------------------------------------+------------------------+
-; Resource                                    ; Usage                  ;
-+---------------------------------------------+------------------------+
-; Estimated Total logic elements              ; 7,863                  ;
-;                                             ;                        ;
-; Total combinational functions               ; 7861                   ;
-; Logic element usage by number of LUT inputs ;                        ;
-;     -- 4 input functions                    ; 2054                   ;
-;     -- 3 input functions                    ; 2101                   ;
-;     -- <=2 input functions                  ; 3706                   ;
-;                                             ;                        ;
-; Logic elements by mode                      ;                        ;
-;     -- normal mode                          ; 5184                   ;
-;     -- arithmetic mode                      ; 2677                   ;
-;                                             ;                        ;
-; Total registers                             ; 152                    ;
-;     -- Dedicated logic registers            ; 152                    ;
-;     -- I/O registers                        ; 0                      ;
-;                                             ;                        ;
-; I/O pins                                    ; 80                     ;
-; Embedded Multiplier 9-bit elements          ; 0                      ;
-; Maximum fan-out node                        ; COUNT:inst7|CNT[25]~23 ;
-; Maximum fan-out                             ; 102                    ;
-; Total fan-out                               ; 21997                  ;
-; Average fan-out                             ; 2.72                   ;
-+---------------------------------------------+------------------------+
++-------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                 ;
++---------------------------------------------+---------------+
+; Resource                                    ; Usage         ;
++---------------------------------------------+---------------+
+; Estimated Total logic elements              ; 9,162         ;
+;                                             ;               ;
+; Total combinational functions               ; 9090          ;
+; Logic element usage by number of LUT inputs ;               ;
+;     -- 4 input functions                    ; 2451          ;
+;     -- 3 input functions                    ; 2455          ;
+;     -- <=2 input functions                  ; 4184          ;
+;                                             ;               ;
+; Logic elements by mode                      ;               ;
+;     -- normal mode                          ; 6029          ;
+;     -- arithmetic mode                      ; 3061          ;
+;                                             ;               ;
+; Total registers                             ; 229           ;
+;     -- Dedicated logic registers            ; 229           ;
+;     -- I/O registers                        ; 0             ;
+;                                             ;               ;
+; I/O pins                                    ; 81            ;
+; Embedded Multiplier 9-bit elements          ; 0             ;
+; Maximum fan-out node                        ; MAIN:inst8|ST ;
+; Maximum fan-out                             ; 136           ;
+; Total fan-out                               ; 25692         ;
+; Average fan-out                             ; 2.73          ;
++---------------------------------------------+---------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -283,18 +299,30 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                ; Library Name ;
 +-------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------+--------------+
-; |taxi                                     ; 7861 (3)          ; 152 (0)      ; 0           ; 0            ; 0       ; 0         ; 80   ; 0            ; |taxi                                                                                                              ; work         ;
+; |taxi                                     ; 9090 (3)          ; 229 (0)      ; 0           ; 0            ; 0       ; 0         ; 81   ; 0            ; |taxi                                                                                                              ; work         ;
 ;    |CLOCK_H:inst4|                        ; 16 (16)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|CLOCK_H:inst4                                                                                                ; work         ;
 ;    |CLOCK_M:inst3|                        ; 14 (14)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|CLOCK_M:inst3                                                                                                ; work         ;
-;    |COUNT:inst7|                          ; 7626 (861)        ; 94 (94)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7                                                                                                  ; work         ;
-;       |lpm_divide:Div0|                   ; 656 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div0                                                                                  ; work         ;
-;          |lpm_divide_tfm:auto_generated|  ; 656 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div0|lpm_divide_tfm:auto_generated                                                    ; work         ;
-;             |sign_div_unsign_7nh:divider| ; 656 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div0|lpm_divide_tfm:auto_generated|sign_div_unsign_7nh:divider                        ; work         ;
-;                |alt_u_div_g5f:divider|    ; 656 (656)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div0|lpm_divide_tfm:auto_generated|sign_div_unsign_7nh:divider|alt_u_div_g5f:divider  ; work         ;
+;    |COUNT:inst7|                          ; 8816 (918)        ; 170 (170)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7                                                                                                  ; work         ;
+;       |lpm_divide:Div0|                   ; 644 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div0                                                                                  ; work         ;
+;          |lpm_divide_tfm:auto_generated|  ; 644 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div0|lpm_divide_tfm:auto_generated                                                    ; work         ;
+;             |sign_div_unsign_7nh:divider| ; 644 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div0|lpm_divide_tfm:auto_generated|sign_div_unsign_7nh:divider                        ; work         ;
+;                |alt_u_div_g5f:divider|    ; 644 (644)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div0|lpm_divide_tfm:auto_generated|sign_div_unsign_7nh:divider|alt_u_div_g5f:divider  ; work         ;
 ;       |lpm_divide:Div10|                  ; 134 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div10                                                                                 ; work         ;
 ;          |lpm_divide_eem:auto_generated|  ; 134 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div10|lpm_divide_eem:auto_generated                                                   ; work         ;
 ;             |sign_div_unsign_olh:divider| ; 134 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div10|lpm_divide_eem:auto_generated|sign_div_unsign_olh:divider                       ; work         ;
 ;                |alt_u_div_i2f:divider|    ; 134 (134)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div10|lpm_divide_eem:auto_generated|sign_div_unsign_olh:divider|alt_u_div_i2f:divider ; work         ;
+;       |lpm_divide:Div11|                  ; 123 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div11                                                                                 ; work         ;
+;          |lpm_divide_rfm:auto_generated|  ; 123 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div11|lpm_divide_rfm:auto_generated                                                   ; work         ;
+;             |sign_div_unsign_6nh:divider| ; 123 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div11|lpm_divide_rfm:auto_generated|sign_div_unsign_6nh:divider                       ; work         ;
+;                |alt_u_div_d5f:divider|    ; 123 (123)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div11|lpm_divide_rfm:auto_generated|sign_div_unsign_6nh:divider|alt_u_div_d5f:divider ; work         ;
+;       |lpm_divide:Div12|                  ; 157 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div12                                                                                 ; work         ;
+;          |lpm_divide_hem:auto_generated|  ; 157 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div12|lpm_divide_hem:auto_generated                                                   ; work         ;
+;             |sign_div_unsign_rlh:divider| ; 157 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div12|lpm_divide_hem:auto_generated|sign_div_unsign_rlh:divider                       ; work         ;
+;                |alt_u_div_o2f:divider|    ; 157 (157)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div12|lpm_divide_hem:auto_generated|sign_div_unsign_rlh:divider|alt_u_div_o2f:divider ; work         ;
+;       |lpm_divide:Div13|                  ; 134 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div13                                                                                 ; work         ;
+;          |lpm_divide_eem:auto_generated|  ; 134 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div13|lpm_divide_eem:auto_generated                                                   ; work         ;
+;             |sign_div_unsign_olh:divider| ; 134 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div13|lpm_divide_eem:auto_generated|sign_div_unsign_olh:divider                       ; work         ;
+;                |alt_u_div_i2f:divider|    ; 134 (134)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div13|lpm_divide_eem:auto_generated|sign_div_unsign_olh:divider|alt_u_div_i2f:divider ; work         ;
 ;       |lpm_divide:Div1|                   ; 659 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div1                                                                                  ; work         ;
 ;          |lpm_divide_0gm:auto_generated|  ; 659 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div1|lpm_divide_0gm:auto_generated                                                    ; work         ;
 ;             |sign_div_unsign_anh:divider| ; 659 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div1|lpm_divide_0gm:auto_generated|sign_div_unsign_anh:divider                        ; work         ;
@@ -335,14 +363,39 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |lpm_divide_u7m:auto_generated|  ; 800 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod0|lpm_divide_u7m:auto_generated                                                    ; work         ;
 ;             |sign_div_unsign_5nh:divider| ; 800 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod0|lpm_divide_u7m:auto_generated|sign_div_unsign_5nh:divider                        ; work         ;
 ;                |alt_u_div_c5f:divider|    ; 800 (800)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod0|lpm_divide_u7m:auto_generated|sign_div_unsign_5nh:divider|alt_u_div_c5f:divider  ; work         ;
-;       |lpm_divide:Mod10|                  ; 229 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod10                                                                                 ; work         ;
-;          |lpm_divide_28m:auto_generated|  ; 229 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod10|lpm_divide_28m:auto_generated                                                   ; work         ;
-;             |sign_div_unsign_9nh:divider| ; 229 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod10|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider                       ; work         ;
-;                |alt_u_div_k5f:divider|    ; 229 (229)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod10|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider ; work         ;
-;       |lpm_divide:Mod11|                  ; 269 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod11                                                                                 ; work         ;
-;          |lpm_divide_28m:auto_generated|  ; 269 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod11|lpm_divide_28m:auto_generated                                                   ; work         ;
-;             |sign_div_unsign_9nh:divider| ; 269 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod11|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider                       ; work         ;
-;                |alt_u_div_k5f:divider|    ; 269 (269)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod11|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider ; work         ;
+;       |lpm_divide:Mod10|                  ; 146 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod10                                                                                 ; work         ;
+;          |lpm_divide_28m:auto_generated|  ; 146 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod10|lpm_divide_28m:auto_generated                                                   ; work         ;
+;             |sign_div_unsign_9nh:divider| ; 146 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod10|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider                       ; work         ;
+;                |alt_u_div_k5f:divider|    ; 146 (146)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod10|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider ; work         ;
+;       |lpm_divide:Mod11|                  ; 229 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod11                                                                                 ; work         ;
+;          |lpm_divide_28m:auto_generated|  ; 229 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod11|lpm_divide_28m:auto_generated                                                   ; work         ;
+;             |sign_div_unsign_9nh:divider| ; 229 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod11|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider                       ; work         ;
+;                |alt_u_div_k5f:divider|    ; 229 (229)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod11|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider ; work         ;
+;       |lpm_divide:Mod12|                  ; 269 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod12                                                                                 ; work         ;
+;          |lpm_divide_28m:auto_generated|  ; 269 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod12|lpm_divide_28m:auto_generated                                                   ; work         ;
+;             |sign_div_unsign_9nh:divider| ; 269 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod12|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider                       ; work         ;
+;                |alt_u_div_k5f:divider|    ; 269 (269)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod12|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider ; work         ;
+;       |lpm_divide:Mod13|                  ; 36 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod13                                                                                 ; work         ;
+;          |lpm_divide_sio:auto_generated|  ; 36 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod13|lpm_divide_sio:auto_generated                                                   ; work         ;
+;             |abs_divider_6ag:divider|     ; 36 (7)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod13|lpm_divide_sio:auto_generated|abs_divider_6ag:divider                           ; work         ;
+;                |alt_u_div_ove:divider|    ; 27 (27)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod13|lpm_divide_sio:auto_generated|abs_divider_6ag:divider|alt_u_div_ove:divider     ; work         ;
+;                |lpm_abs_hq9:my_abs_num|   ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod13|lpm_divide_sio:auto_generated|abs_divider_6ag:divider|lpm_abs_hq9:my_abs_num    ; work         ;
+;       |lpm_divide:Mod14|                  ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod14                                                                                 ; work         ;
+;          |lpm_divide_28m:auto_generated|  ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod14|lpm_divide_28m:auto_generated                                                   ; work         ;
+;             |sign_div_unsign_9nh:divider| ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod14|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider                       ; work         ;
+;                |alt_u_div_k5f:divider|    ; 33 (33)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod14|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider ; work         ;
+;       |lpm_divide:Mod15|                  ; 146 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod15                                                                                 ; work         ;
+;          |lpm_divide_28m:auto_generated|  ; 146 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod15|lpm_divide_28m:auto_generated                                                   ; work         ;
+;             |sign_div_unsign_9nh:divider| ; 146 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod15|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider                       ; work         ;
+;                |alt_u_div_k5f:divider|    ; 146 (146)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod15|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider ; work         ;
+;       |lpm_divide:Mod16|                  ; 229 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod16                                                                                 ; work         ;
+;          |lpm_divide_28m:auto_generated|  ; 229 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod16|lpm_divide_28m:auto_generated                                                   ; work         ;
+;             |sign_div_unsign_9nh:divider| ; 229 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod16|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider                       ; work         ;
+;                |alt_u_div_k5f:divider|    ; 229 (229)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod16|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider ; work         ;
+;       |lpm_divide:Mod17|                  ; 269 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod17                                                                                 ; work         ;
+;          |lpm_divide_28m:auto_generated|  ; 269 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod17|lpm_divide_28m:auto_generated                                                   ; work         ;
+;             |sign_div_unsign_9nh:divider| ; 269 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod17|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider                       ; work         ;
+;                |alt_u_div_k5f:divider|    ; 269 (269)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod17|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider ; work         ;
 ;       |lpm_divide:Mod1|                   ; 559 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod1                                                                                  ; work         ;
 ;          |lpm_divide_u7m:auto_generated|  ; 559 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod1|lpm_divide_u7m:auto_generated                                                    ; work         ;
 ;             |sign_div_unsign_5nh:divider| ; 559 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod1|lpm_divide_u7m:auto_generated|sign_div_unsign_5nh:divider                        ; work         ;
@@ -367,18 +420,18 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |lpm_divide_c8m:auto_generated|  ; 71 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod6|lpm_divide_c8m:auto_generated                                                    ; work         ;
 ;             |sign_div_unsign_jnh:divider| ; 71 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod6|lpm_divide_c8m:auto_generated|sign_div_unsign_jnh:divider                        ; work         ;
 ;                |alt_u_div_86f:divider|    ; 71 (71)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod6|lpm_divide_c8m:auto_generated|sign_div_unsign_jnh:divider|alt_u_div_86f:divider  ; work         ;
-;       |lpm_divide:Mod8|                   ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod8                                                                                  ; work         ;
-;          |lpm_divide_28m:auto_generated|  ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod8|lpm_divide_28m:auto_generated                                                    ; work         ;
-;             |sign_div_unsign_9nh:divider| ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod8|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider                        ; work         ;
-;                |alt_u_div_k5f:divider|    ; 33 (33)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod8|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider  ; work         ;
-;       |lpm_divide:Mod9|                   ; 146 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod9                                                                                  ; work         ;
-;          |lpm_divide_28m:auto_generated|  ; 146 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod9|lpm_divide_28m:auto_generated                                                    ; work         ;
-;             |sign_div_unsign_9nh:divider| ; 146 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod9|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider                        ; work         ;
-;                |alt_u_div_k5f:divider|    ; 146 (146)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod9|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider  ; work         ;
+;       |lpm_divide:Mod8|                   ; 18 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod8                                                                                  ; work         ;
+;          |lpm_divide_05m:auto_generated|  ; 18 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod8|lpm_divide_05m:auto_generated                                                    ; work         ;
+;             |sign_div_unsign_7kh:divider| ; 18 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod8|lpm_divide_05m:auto_generated|sign_div_unsign_7kh:divider                        ; work         ;
+;                |alt_u_div_gve:divider|    ; 18 (18)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod8|lpm_divide_05m:auto_generated|sign_div_unsign_7kh:divider|alt_u_div_gve:divider  ; work         ;
+;       |lpm_divide:Mod9|                   ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod9                                                                                  ; work         ;
+;          |lpm_divide_28m:auto_generated|  ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod9|lpm_divide_28m:auto_generated                                                    ; work         ;
+;             |sign_div_unsign_9nh:divider| ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod9|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider                        ; work         ;
+;                |alt_u_div_k5f:divider|    ; 33 (33)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod9|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider  ; work         ;
 ;    |FD2:inst1|                            ; 4 (4)             ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|FD2:inst1                                                                                                    ; work         ;
 ;    |FD3:inst22|                           ; 4 (4)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|FD3:inst22                                                                                                   ; work         ;
 ;    |FD:inst|                              ; 39 (39)           ; 24 (24)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|FD:inst                                                                                                      ; work         ;
-;    |MAIN:inst8|                           ; 99 (99)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|MAIN:inst8                                                                                                   ; work         ;
+;    |MAIN:inst8|                           ; 138 (138)         ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|MAIN:inst8                                                                                                   ; work         ;
 ;    |TRANS:inst10|                         ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|TRANS:inst10                                                                                                 ; work         ;
 ;    |TRANS:inst11|                         ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|TRANS:inst11                                                                                                 ; work         ;
 ;    |TRANS:inst12|                         ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|TRANS:inst12                                                                                                 ; work         ;
@@ -392,20 +445,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 Encoding Type:  One-Hot
-+-------------------------------------------------------------------------------------------+
-; State Machine - |taxi|MAIN:inst8|CS                                                       ;
-+-----------+---------+---------+---------+-----------+----------+----------+-------+-------+
-; Name      ; CS.SSUM ; CS.SCT1 ; CS.SCT0 ; CS.SPAUSE ; CS.SRUN1 ; CS.SRUN0 ; CS.S1 ; CS.S0 ;
-+-----------+---------+---------+---------+-----------+----------+----------+-------+-------+
-; CS.S0     ; 0       ; 0       ; 0       ; 0         ; 0        ; 0        ; 0     ; 0     ;
-; CS.S1     ; 0       ; 0       ; 0       ; 0         ; 0        ; 0        ; 1     ; 1     ;
-; CS.SRUN0  ; 0       ; 0       ; 0       ; 0         ; 0        ; 1        ; 0     ; 1     ;
-; CS.SRUN1  ; 0       ; 0       ; 0       ; 0         ; 1        ; 0        ; 0     ; 1     ;
-; CS.SPAUSE ; 0       ; 0       ; 0       ; 1         ; 0        ; 0        ; 0     ; 1     ;
-; CS.SCT0   ; 0       ; 0       ; 1       ; 0         ; 0        ; 0        ; 0     ; 1     ;
-; CS.SCT1   ; 0       ; 1       ; 0       ; 0         ; 0        ; 0        ; 0     ; 1     ;
-; CS.SSUM   ; 1       ; 0       ; 0       ; 0         ; 0        ; 0        ; 0     ; 1     ;
-+-----------+---------+---------+---------+-----------+----------+----------+-------+-------+
++------------------------------------------------------------------------------------------------------+
+; State Machine - |taxi|MAIN:inst8|CS                                                                  ;
++-----------+----------+---------+---------+---------+-----------+----------+----------+-------+-------+
+; Name      ; CS.SLAST ; CS.SSUM ; CS.SCT1 ; CS.SCT0 ; CS.SPAUSE ; CS.SRUN1 ; CS.SRUN0 ; CS.S1 ; CS.S0 ;
++-----------+----------+---------+---------+---------+-----------+----------+----------+-------+-------+
+; CS.S0     ; 0        ; 0       ; 0       ; 0       ; 0         ; 0        ; 0        ; 0     ; 0     ;
+; CS.S1     ; 0        ; 0       ; 0       ; 0       ; 0         ; 0        ; 0        ; 1     ; 1     ;
+; CS.SRUN0  ; 0        ; 0       ; 0       ; 0       ; 0         ; 0        ; 1        ; 0     ; 1     ;
+; CS.SRUN1  ; 0        ; 0       ; 0       ; 0       ; 0         ; 1        ; 0        ; 0     ; 1     ;
+; CS.SPAUSE ; 0        ; 0       ; 0       ; 0       ; 1         ; 0        ; 0        ; 0     ; 1     ;
+; CS.SCT0   ; 0        ; 0       ; 0       ; 1       ; 0         ; 0        ; 0        ; 0     ; 1     ;
+; CS.SCT1   ; 0        ; 0       ; 1       ; 0       ; 0         ; 0        ; 0        ; 0     ; 1     ;
+; CS.SSUM   ; 0        ; 1       ; 0       ; 0       ; 0         ; 0        ; 0        ; 0     ; 1     ;
+; CS.SLAST  ; 1        ; 0       ; 0       ; 0       ; 0         ; 0        ; 0        ; 0     ; 1     ;
++-----------+----------+---------+---------+---------+-----------+----------+----------+-------+-------+
 
 
 +----------------------------------------------------------------------------------------------------+
@@ -413,7 +467,7 @@ Encoding Type:  One-Hot
 +-----------------------------------------------------+---------------------+------------------------+
 ; Latch Name                                          ; Latch Enable Signal ; Free of Timing Hazards ;
 +-----------------------------------------------------+---------------------+------------------------+
-; MAIN:inst8|DOT                                      ; MAIN:inst8|D        ; yes                    ;
+; MAIN:inst8|DOT                                      ; MAIN:inst8|DOT      ; yes                    ;
 ; MAIN:inst8|MM0[0]                                   ; MAIN:inst8|CS.SCT1  ; yes                    ;
 ; MAIN:inst8|MM0[1]                                   ; MAIN:inst8|CS.SCT1  ; yes                    ;
 ; MAIN:inst8|MM0[2]                                   ; MAIN:inst8|CS.SCT1  ; yes                    ;
@@ -430,9 +484,9 @@ Encoding Type:  One-Hot
 ; MAIN:inst8|HH1[1]                                   ; MAIN:inst8|CS.SCT0  ; yes                    ;
 ; MAIN:inst8|HH1[2]                                   ; MAIN:inst8|CS.SCT0  ; yes                    ;
 ; MAIN:inst8|HH1[3]                                   ; MAIN:inst8|CS.SCT0  ; yes                    ;
-; MAIN:inst8|SUM_EN                                   ; MAIN:inst8|WideOr4  ; yes                    ;
+; MAIN:inst8|SUM_EN                                   ; MAIN:inst8|WideOr5  ; yes                    ;
+; MAIN:inst8|LAST_EN                                  ; MAIN:inst8|WideOr6  ; yes                    ;
 ; COUNT:inst7|QIBU[14]                                ; MAIN:inst8|CS.SRUN0 ; yes                    ;
-; COUNT:inst7|QIBU[15]                                ; MAIN:inst8|CS.SRUN0 ; yes                    ;
 ; COUNT:inst7|QIBU[13]                                ; MAIN:inst8|CS.SRUN0 ; yes                    ;
 ; COUNT:inst7|QIBU[12]                                ; MAIN:inst8|CS.SRUN0 ; yes                    ;
 ; COUNT:inst7|QIBU[10]                                ; MAIN:inst8|CS.SRUN0 ; yes                    ;
@@ -440,13 +494,14 @@ Encoding Type:  One-Hot
 ; COUNT:inst7|QIBU[8]                                 ; MAIN:inst8|CS.SRUN0 ; yes                    ;
 ; COUNT:inst7|QIBU[7]                                 ; MAIN:inst8|CS.SRUN0 ; yes                    ;
 ; COUNT:inst7|QIBU[6]                                 ; MAIN:inst8|CS.SRUN0 ; yes                    ;
+; COUNT:inst7|QIBU[15]                                ; MAIN:inst8|CS.SRUN0 ; yes                    ;
 ; COUNT:inst7|QIBU[16]                                ; MAIN:inst8|CS.SRUN0 ; yes                    ;
 ; COUNT:inst7|QIBU[17]                                ; MAIN:inst8|CS.SRUN0 ; yes                    ;
 ; COUNT:inst7|QIBU[18]                                ; MAIN:inst8|CS.SRUN0 ; yes                    ;
 ; COUNT:inst7|QIBU[19]                                ; MAIN:inst8|CS.SRUN0 ; yes                    ;
 ; COUNT:inst7|QIBU[20]                                ; MAIN:inst8|CS.SRUN0 ; yes                    ;
 ; COUNT:inst7|QIBU[21]                                ; MAIN:inst8|CS.SRUN0 ; yes                    ;
-; Number of user-specified and inferred latches = 33  ;                     ;                        ;
+; Number of user-specified and inferred latches = 34  ;                     ;                        ;
 +-----------------------------------------------------+---------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
@@ -466,12 +521,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 152   ;
+; Total registers                              ; 229   ;
 ; Number of registers using Synchronous Clear  ; 33    ;
 ; Number of registers using Synchronous Load   ; 11    ;
-; Number of registers using Asynchronous Clear ; 73    ;
+; Number of registers using Asynchronous Clear ; 74    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 119   ;
+; Number of registers using Clock Enable       ; 192   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -492,23 +547,70 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output  ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |taxi|CLOCK_H:inst4|CNT1[0] ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |taxi|CLOCK_H:inst4|CNT0[0] ;
-; 3:1                ; 23 bits   ; 46 LEs        ; 23 LEs               ; 23 LEs                 ; Yes        ; |taxi|FD:inst|TEMP1[12]     ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |taxi|FD2:inst1|TEMP1[0]    ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |taxi|FD3:inst22|TEMP1[0]   ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |taxi|COUNT:inst7|DIS[18]   ;
-; 18:1               ; 11 bits   ; 132 LEs       ; 110 LEs              ; 22 LEs                 ; Yes        ; |taxi|COUNT:inst7|CNT[25]   ;
-; 18:1               ; 15 bits   ; 180 LEs       ; 150 LEs              ; 30 LEs                 ; Yes        ; |taxi|COUNT:inst7|CNT[17]   ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; No         ; |taxi|MAIN:inst8|MM0[0]     ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; No         ; |taxi|MAIN:inst8|HH1        ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |taxi|MAIN:inst8|Selector33 ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |taxi|MAIN:inst8|Selector17 ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |taxi|CLOCK_H:inst4|CNT1[2] ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |taxi|CLOCK_H:inst4|CNT0[3] ;
+; 3:1                ; 23 bits   ; 46 LEs        ; 23 LEs               ; 23 LEs                 ; Yes        ; |taxi|FD:inst|TEMP1[9]      ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |taxi|FD2:inst1|TEMP1[1]    ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |taxi|FD3:inst22|TEMP1[2]   ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |taxi|COUNT:inst7|DIS[6]    ;
+; 18:1               ; 11 bits   ; 132 LEs       ; 110 LEs              ; 22 LEs                 ; Yes        ; |taxi|COUNT:inst7|CNT[4]    ;
+; 18:1               ; 15 bits   ; 180 LEs       ; 150 LEs              ; 30 LEs                 ; Yes        ; |taxi|COUNT:inst7|CNT[6]    ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; No         ; |taxi|MAIN:inst8|MM1[0]     ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; No         ; |taxi|MAIN:inst8|HH0        ;
+; 5:1                ; 14 bits   ; 42 LEs        ; 42 LEs               ; 0 LEs                  ; No         ; |taxi|COUNT:inst7|Mux7      ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |taxi|MAIN:inst8|Selector28 ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |taxi|MAIN:inst8|Selector26 ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
 
 
 +-------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod11 ;
+; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod12 ;
++------------------------+----------------+-------------------------------------+
+; Parameter Name         ; Value          ; Type                                ;
++------------------------+----------------+-------------------------------------+
+; LPM_WIDTHN             ; 14             ; Untyped                             ;
+; LPM_WIDTHD             ; 14             ; Untyped                             ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                             ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                             ;
+; LPM_PIPELINE           ; 0              ; Untyped                             ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                             ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                             ;
+; CBXI_PARAMETER         ; lpm_divide_28m ; Untyped                             ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                             ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                             ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                          ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                        ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                        ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                      ;
++------------------------+----------------+-------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod13 ;
++------------------------+----------------+-------------------------------------+
+; Parameter Name         ; Value          ; Type                                ;
++------------------------+----------------+-------------------------------------+
+; LPM_WIDTHN             ; 6              ; Untyped                             ;
+; LPM_WIDTHD             ; 6              ; Untyped                             ;
+; LPM_NREPRESENTATION    ; SIGNED         ; Untyped                             ;
+; LPM_DREPRESENTATION    ; SIGNED         ; Untyped                             ;
+; LPM_PIPELINE           ; 0              ; Untyped                             ;
+; LPM_REMAINDERPOSITIVE  ; FALSE          ; Untyped                             ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                             ;
+; CBXI_PARAMETER         ; lpm_divide_sio ; Untyped                             ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                             ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                             ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                          ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                        ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                        ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                      ;
++------------------------+----------------+-------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod17 ;
 +------------------------+----------------+-------------------------------------+
 ; Parameter Name         ; Value          ; Type                                ;
 +------------------------+----------------+-------------------------------------+
@@ -554,7 +656,53 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod10 ;
+; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod11 ;
++------------------------+----------------+-------------------------------------+
+; Parameter Name         ; Value          ; Type                                ;
++------------------------+----------------+-------------------------------------+
+; LPM_WIDTHN             ; 14             ; Untyped                             ;
+; LPM_WIDTHD             ; 14             ; Untyped                             ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                             ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                             ;
+; LPM_PIPELINE           ; 0              ; Untyped                             ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                             ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                             ;
+; CBXI_PARAMETER         ; lpm_divide_28m ; Untyped                             ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                             ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                             ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                          ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                        ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                        ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                      ;
++------------------------+----------------+-------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div13 ;
++------------------------+----------------+-------------------------------------+
+; Parameter Name         ; Value          ; Type                                ;
++------------------------+----------------+-------------------------------------+
+; LPM_WIDTHN             ; 14             ; Untyped                             ;
+; LPM_WIDTHD             ; 4              ; Untyped                             ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                             ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                             ;
+; LPM_PIPELINE           ; 0              ; Untyped                             ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                             ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                             ;
+; CBXI_PARAMETER         ; lpm_divide_eem ; Untyped                             ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                             ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                             ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                          ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                        ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                        ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                      ;
++------------------------+----------------+-------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod16 ;
 +------------------------+----------------+-------------------------------------+
 ; Parameter Name         ; Value          ; Type                                ;
 +------------------------+----------------+-------------------------------------+
@@ -599,26 +747,72 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod9 ;
-+------------------------+----------------+------------------------------------+
-; Parameter Name         ; Value          ; Type                               ;
-+------------------------+----------------+------------------------------------+
-; LPM_WIDTHN             ; 14             ; Untyped                            ;
-; LPM_WIDTHD             ; 14             ; Untyped                            ;
-; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
-; LPM_PIPELINE           ; 0              ; Untyped                            ;
-; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                            ;
-; MAXIMIZE_SPEED         ; 5              ; Untyped                            ;
-; CBXI_PARAMETER         ; lpm_divide_28m ; Untyped                            ;
-; CARRY_CHAIN            ; MANUAL         ; Untyped                            ;
-; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                            ;
-; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                         ;
-; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                       ;
-; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                       ;
-; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                     ;
-+------------------------+----------------+------------------------------------+
++-------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod10 ;
++------------------------+----------------+-------------------------------------+
+; Parameter Name         ; Value          ; Type                                ;
++------------------------+----------------+-------------------------------------+
+; LPM_WIDTHN             ; 14             ; Untyped                             ;
+; LPM_WIDTHD             ; 14             ; Untyped                             ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                             ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                             ;
+; LPM_PIPELINE           ; 0              ; Untyped                             ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                             ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                             ;
+; CBXI_PARAMETER         ; lpm_divide_28m ; Untyped                             ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                             ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                             ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                          ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                        ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                        ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                      ;
++------------------------+----------------+-------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div12 ;
++------------------------+----------------+-------------------------------------+
+; Parameter Name         ; Value          ; Type                                ;
++------------------------+----------------+-------------------------------------+
+; LPM_WIDTHN             ; 14             ; Untyped                             ;
+; LPM_WIDTHD             ; 7              ; Untyped                             ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                             ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                             ;
+; LPM_PIPELINE           ; 0              ; Untyped                             ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                             ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                             ;
+; CBXI_PARAMETER         ; lpm_divide_hem ; Untyped                             ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                             ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                             ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                          ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                        ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                        ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                      ;
++------------------------+----------------+-------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod15 ;
++------------------------+----------------+-------------------------------------+
+; Parameter Name         ; Value          ; Type                                ;
++------------------------+----------------+-------------------------------------+
+; LPM_WIDTHN             ; 14             ; Untyped                             ;
+; LPM_WIDTHD             ; 14             ; Untyped                             ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                             ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                             ;
+; LPM_PIPELINE           ; 0              ; Untyped                             ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                             ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                             ;
+; CBXI_PARAMETER         ; lpm_divide_28m ; Untyped                             ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                             ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                             ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                          ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                        ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                        ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                      ;
++------------------------+----------------+-------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -646,7 +840,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod8 ;
+; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod9 ;
 +------------------------+----------------+------------------------------------+
 ; Parameter Name         ; Value          ; Type                               ;
 +------------------------+----------------+------------------------------------+
@@ -665,6 +859,52 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                       ;
 ; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                     ;
 +------------------------+----------------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div11 ;
++------------------------+----------------+-------------------------------------+
+; Parameter Name         ; Value          ; Type                                ;
++------------------------+----------------+-------------------------------------+
+; LPM_WIDTHN             ; 14             ; Untyped                             ;
+; LPM_WIDTHD             ; 10             ; Untyped                             ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                             ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                             ;
+; LPM_PIPELINE           ; 0              ; Untyped                             ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                             ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                             ;
+; CBXI_PARAMETER         ; lpm_divide_rfm ; Untyped                             ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                             ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                             ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                          ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                        ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                        ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                      ;
++------------------------+----------------+-------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod14 ;
++------------------------+----------------+-------------------------------------+
+; Parameter Name         ; Value          ; Type                                ;
++------------------------+----------------+-------------------------------------+
+; LPM_WIDTHN             ; 14             ; Untyped                             ;
+; LPM_WIDTHD             ; 14             ; Untyped                             ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                             ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                             ;
+; LPM_PIPELINE           ; 0              ; Untyped                             ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                             ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                             ;
+; CBXI_PARAMETER         ; lpm_divide_28m ; Untyped                             ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                             ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                             ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                          ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                        ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                        ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                      ;
++------------------------+----------------+-------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -704,6 +944,29 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                            ;
 ; MAXIMIZE_SPEED         ; 5              ; Untyped                            ;
 ; CBXI_PARAMETER         ; lpm_divide_u7m ; Untyped                            ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                            ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                            ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                         ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                       ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                       ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                     ;
++------------------------+----------------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod8 ;
++------------------------+----------------+------------------------------------+
+; Parameter Name         ; Value          ; Type                               ;
++------------------------+----------------+------------------------------------+
+; LPM_WIDTHN             ; 4              ; Untyped                            ;
+; LPM_WIDTHD             ; 4              ; Untyped                            ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                            ;
+; LPM_PIPELINE           ; 0              ; Untyped                            ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                            ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                            ;
+; CBXI_PARAMETER         ; lpm_divide_05m ; Untyped                            ;
 ; CARRY_CHAIN            ; MANUAL         ; Untyped                            ;
 ; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                            ;
 ; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                         ;
@@ -1041,7 +1304,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:06     ;
+; Top            ; 00:00:08     ;
 +----------------+--------------+
 
 
@@ -1051,7 +1314,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sun Apr 20 19:50:24 2025
+    Info: Processing started: Sun Apr 20 21:33:29 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off taxi -c taxi
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file fd.vhd
@@ -1088,138 +1351,34 @@ Info (12021): Found 2 design units, including 1 entities, in source file sum.vhd
     Info (12023): Found entity 1: SUM
 Info (12127): Elaborating entity "taxi" for the top level hierarchy
 Warning (275011): Block or symbol "SWT" of instance "inst19" overlaps another block or symbol
-Warning (275009): Pin "KEY_REST" not connected
 Info (12128): Elaborating entity "MAIN" for hierarchy "MAIN:inst8"
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(58): signal "SHOW_SUM" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(64): signal "PAUSE" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(69): signal "PAUSE" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(83): signal "SHOW_SUM" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(91): signal "CS" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(96): signal "M0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(97): signal "M1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(99): signal "CS" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(104): signal "H0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(105): signal "H1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(108): signal "M0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(109): signal "M1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(110): signal "H0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(111): signal "H1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10631): VHDL Process Statement warning at MAIN.vhd(89): inferring latch(es) for signal or variable "MM0", which holds its previous value in one or more paths through the process
-Warning (10631): VHDL Process Statement warning at MAIN.vhd(89): inferring latch(es) for signal or variable "MM1", which holds its previous value in one or more paths through the process
-Warning (10631): VHDL Process Statement warning at MAIN.vhd(89): inferring latch(es) for signal or variable "HH0", which holds its previous value in one or more paths through the process
-Warning (10631): VHDL Process Statement warning at MAIN.vhd(89): inferring latch(es) for signal or variable "HH1", which holds its previous value in one or more paths through the process
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(126): signal "DIS3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(126): signal "DIS2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(126): signal "DIS1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(126): signal "DIS0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(126): signal "COST3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(126): signal "COST2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(126): signal "COST1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(126): signal "COST0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(127): signal "HH1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(127): signal "HH0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(127): signal "MM1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(127): signal "MM0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(127): signal "COST3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(127): signal "COST2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(127): signal "COST1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(127): signal "COST0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(135): signal "DIS3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(135): signal "DIS2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(135): signal "DIS1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(135): signal "DIS0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(135): signal "COST3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(135): signal "COST2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(135): signal "COST1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(135): signal "COST0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(136): signal "HH1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(136): signal "HH0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(136): signal "MM1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(136): signal "MM0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(136): signal "COST3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(136): signal "COST2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(136): signal "COST1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(136): signal "COST0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(143): signal "DIS3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(143): signal "DIS2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(143): signal "DIS1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(143): signal "DIS0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(143): signal "COST3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(143): signal "COST2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(143): signal "COST1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(143): signal "COST0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(144): signal "HH1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(144): signal "HH0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(144): signal "MM1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(144): signal "MM0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(144): signal "COST3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(144): signal "COST2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(144): signal "COST1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(144): signal "COST0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(152): signal "DIS3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(152): signal "DIS2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(152): signal "DIS1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(152): signal "DIS0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(152): signal "COST3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(152): signal "COST2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(152): signal "COST1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(152): signal "COST0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(153): signal "HH1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(153): signal "HH0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(153): signal "MM1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(153): signal "MM0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(153): signal "COST3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(153): signal "COST2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(153): signal "COST1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(153): signal "COST0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(162): signal "HH1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(162): signal "HH0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(162): signal "MM1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(162): signal "MM0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(162): signal "COST3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(162): signal "COST2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(162): signal "COST1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(162): signal "COST0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(170): signal "HH1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(170): signal "HH0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(170): signal "MM1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(170): signal "MM0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(170): signal "COST3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(170): signal "COST2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(170): signal "COST1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(170): signal "COST0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(176): signal "DIS3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(176): signal "DIS2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(176): signal "DIS1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(176): signal "DIS0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(176): signal "SUM_DATA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(177): signal "HH1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(177): signal "HH0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(177): signal "MM1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(177): signal "MM0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at MAIN.vhd(177): signal "SUM_DATA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10631): VHDL Process Statement warning at MAIN.vhd(115): inferring latch(es) for signal or variable "DOT", which holds its previous value in one or more paths through the process
-Warning (10631): VHDL Process Statement warning at MAIN.vhd(115): inferring latch(es) for signal or variable "SUM_EN", which holds its previous value in one or more paths through the process
-Info (10041): Inferred latch for "SUM_EN" at MAIN.vhd(115)
-Info (10041): Inferred latch for "DOT" at MAIN.vhd(115)
-Info (10041): Inferred latch for "HH1[0]" at MAIN.vhd(89)
-Info (10041): Inferred latch for "HH1[1]" at MAIN.vhd(89)
-Info (10041): Inferred latch for "HH1[2]" at MAIN.vhd(89)
-Info (10041): Inferred latch for "HH1[3]" at MAIN.vhd(89)
-Info (10041): Inferred latch for "HH0[0]" at MAIN.vhd(89)
-Info (10041): Inferred latch for "HH0[1]" at MAIN.vhd(89)
-Info (10041): Inferred latch for "HH0[2]" at MAIN.vhd(89)
-Info (10041): Inferred latch for "HH0[3]" at MAIN.vhd(89)
-Info (10041): Inferred latch for "MM1[0]" at MAIN.vhd(89)
-Info (10041): Inferred latch for "MM1[1]" at MAIN.vhd(89)
-Info (10041): Inferred latch for "MM1[2]" at MAIN.vhd(89)
-Info (10041): Inferred latch for "MM1[3]" at MAIN.vhd(89)
-Info (10041): Inferred latch for "MM0[0]" at MAIN.vhd(89)
-Info (10041): Inferred latch for "MM0[1]" at MAIN.vhd(89)
-Info (10041): Inferred latch for "MM0[2]" at MAIN.vhd(89)
-Info (10041): Inferred latch for "MM0[3]" at MAIN.vhd(89)
+Warning (10631): VHDL Process Statement warning at MAIN.vhd(99): inferring latch(es) for signal or variable "MM0", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at MAIN.vhd(99): inferring latch(es) for signal or variable "MM1", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at MAIN.vhd(99): inferring latch(es) for signal or variable "HH0", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at MAIN.vhd(99): inferring latch(es) for signal or variable "HH1", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at MAIN.vhd(125): inferring latch(es) for signal or variable "DOT", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at MAIN.vhd(125): inferring latch(es) for signal or variable "SUM_EN", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at MAIN.vhd(125): inferring latch(es) for signal or variable "LAST_EN", which holds its previous value in one or more paths through the process
+Info (10041): Inferred latch for "LAST_EN" at MAIN.vhd(125)
+Info (10041): Inferred latch for "SUM_EN" at MAIN.vhd(125)
+Info (10041): Inferred latch for "DOT" at MAIN.vhd(125)
+Info (10041): Inferred latch for "HH1[0]" at MAIN.vhd(99)
+Info (10041): Inferred latch for "HH1[1]" at MAIN.vhd(99)
+Info (10041): Inferred latch for "HH1[2]" at MAIN.vhd(99)
+Info (10041): Inferred latch for "HH1[3]" at MAIN.vhd(99)
+Info (10041): Inferred latch for "HH0[0]" at MAIN.vhd(99)
+Info (10041): Inferred latch for "HH0[1]" at MAIN.vhd(99)
+Info (10041): Inferred latch for "HH0[2]" at MAIN.vhd(99)
+Info (10041): Inferred latch for "HH0[3]" at MAIN.vhd(99)
+Info (10041): Inferred latch for "MM1[0]" at MAIN.vhd(99)
+Info (10041): Inferred latch for "MM1[1]" at MAIN.vhd(99)
+Info (10041): Inferred latch for "MM1[2]" at MAIN.vhd(99)
+Info (10041): Inferred latch for "MM1[3]" at MAIN.vhd(99)
+Info (10041): Inferred latch for "MM0[0]" at MAIN.vhd(99)
+Info (10041): Inferred latch for "MM0[1]" at MAIN.vhd(99)
+Info (10041): Inferred latch for "MM0[2]" at MAIN.vhd(99)
+Info (10041): Inferred latch for "MM0[3]" at MAIN.vhd(99)
 Info (12128): Elaborating entity "FD" for hierarchy "FD:inst"
-Warning (10492): VHDL Process Statement warning at fd.vhd(17): signal "EN" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Info (12128): Elaborating entity "SWT" for hierarchy "SWT:inst19"
 Warning (10631): VHDL Process Statement warning at SWT.vhd(13): inferring latch(es) for signal or variable "CT0", which holds its previous value in one or more paths through the process
 Warning (10631): VHDL Process Statement warning at SWT.vhd(13): inferring latch(es) for signal or variable "CT1", which holds its previous value in one or more paths through the process
@@ -1228,64 +1387,71 @@ Info (10041): Inferred latch for "CT0" at SWT.vhd(13)
 Info (12128): Elaborating entity "FD3" for hierarchy "FD3:inst22"
 Warning (10492): VHDL Process Statement warning at FD3.vhd(30): signal "Q1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Info (12128): Elaborating entity "COUNT" for hierarchy "COUNT:inst7"
-Warning (10492): VHDL Process Statement warning at COUNT.vhd(33): signal "RSET" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at COUNT.vhd(36): signal "A1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at COUNT.vhd(37): signal "A2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at COUNT.vhd(43): signal "A2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10631): VHDL Process Statement warning at COUNT.vhd(30): inferring latch(es) for signal or variable "QIBU", which holds its previous value in one or more paths through the process
-Warning (10492): VHDL Process Statement warning at COUNT.vhd(108): signal "SUM_REST" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at COUNT.vhd(116): signal "TEMP" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Info (10041): Inferred latch for "QIBU[0]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[1]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[2]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[3]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[4]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[5]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[6]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[7]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[8]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[9]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[10]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[11]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[12]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[13]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[14]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[15]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[16]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[17]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[18]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[19]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[20]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[21]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[22]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[23]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[24]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[25]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[26]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[27]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[28]" at COUNT.vhd(30)
-Info (10041): Inferred latch for "QIBU[29]" at COUNT.vhd(30)
+Warning (10492): VHDL Process Statement warning at COUNT.vhd(41): signal "RSET" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at COUNT.vhd(44): signal "A1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at COUNT.vhd(45): signal "A2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at COUNT.vhd(51): signal "A2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10631): VHDL Process Statement warning at COUNT.vhd(38): inferring latch(es) for signal or variable "QIBU", which holds its previous value in one or more paths through the process
+Warning (10492): VHDL Process Statement warning at COUNT.vhd(126): signal "TEMP" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at COUNT.vhd(138): signal "LAST_ARRAY" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at COUNT.vhd(138): signal "P" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Info (10041): Inferred latch for "QIBU[0]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[1]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[2]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[3]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[4]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[5]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[6]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[7]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[8]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[9]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[10]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[11]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[12]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[13]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[14]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[15]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[16]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[17]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[18]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[19]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[20]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[21]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[22]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[23]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[24]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[25]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[26]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[27]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[28]" at COUNT.vhd(38)
+Info (10041): Inferred latch for "QIBU[29]" at COUNT.vhd(38)
 Info (12128): Elaborating entity "FD2" for hierarchy "FD2:inst1"
-Warning (10492): VHDL Process Statement warning at FD2.vhd(17): signal "EN" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at FD2.vhd(33): signal "Q1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Info (12128): Elaborating entity "CLOCK_H" for hierarchy "CLOCK_H:inst4"
 Warning (10492): VHDL Process Statement warning at clock_h.vhd(29): signal "MCLK" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Info (12128): Elaborating entity "CLOCK_M" for hierarchy "CLOCK_M:inst3"
-Warning (10492): VHDL Process Statement warning at clock_m.vhd(28): signal "MCLK" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Info (12128): Elaborating entity "TRANS" for hierarchy "TRANS:inst9"
 Warning (19016): Clock multiplexers are found and protected
     Warning (19017): Found clock multiplexer CLOCK_M:inst3|MCLK
     Warning (19017): Found clock multiplexer CLOCK_H:inst4|MCLK
-Info (278001): Inferred 23 megafunctions from design logic
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod11"
+Info (278001): Inferred 32 megafunctions from design logic
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod12"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod13"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod17"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Div10"
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod10"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod11"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Div13"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod16"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Div9"
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod9"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod10"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Div12"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod15"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Div8"
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod8"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod9"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Div11"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod14"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Div0"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod0"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod8"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Div1"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod1"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Div2"
@@ -1300,8 +1466,8 @@ Info (278001): Inferred 23 megafunctions from design logic
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod6"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Div7"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod7"
-Info (12130): Elaborated megafunction instantiation "COUNT:inst7|lpm_divide:Mod11"
-Info (12133): Instantiated megafunction "COUNT:inst7|lpm_divide:Mod11" with the following parameter:
+Info (12130): Elaborated megafunction instantiation "COUNT:inst7|lpm_divide:Mod12"
+Info (12133): Instantiated megafunction "COUNT:inst7|lpm_divide:Mod12" with the following parameter:
     Info (12134): Parameter "LPM_WIDTHN" = "14"
     Info (12134): Parameter "LPM_WIDTHD" = "14"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
@@ -1316,6 +1482,21 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/add_
     Info (12023): Found entity 1: add_sub_lkc
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_mkc.tdf
     Info (12023): Found entity 1: add_sub_mkc
+Info (12130): Elaborated megafunction instantiation "COUNT:inst7|lpm_divide:Mod13"
+Info (12133): Instantiated megafunction "COUNT:inst7|lpm_divide:Mod13" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHN" = "6"
+    Info (12134): Parameter "LPM_WIDTHD" = "6"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "LPM_HINT" = "LPM_REMAINDERPOSITIVE=FALSE"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_sio.tdf
+    Info (12023): Found entity 1: lpm_divide_sio
+Info (12021): Found 1 design units, including 1 entities, in source file db/abs_divider_6ag.tdf
+    Info (12023): Found entity 1: abs_divider_6ag
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_ove.tdf
+    Info (12023): Found entity 1: alt_u_div_ove
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_abs_hq9.tdf
+    Info (12023): Found entity 1: lpm_abs_hq9
 Info (12130): Elaborated megafunction instantiation "COUNT:inst7|lpm_divide:Div10"
 Info (12133): Instantiated megafunction "COUNT:inst7|lpm_divide:Div10" with the following parameter:
     Info (12134): Parameter "LPM_WIDTHN" = "14"
@@ -1376,6 +1557,18 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/sign
     Info (12023): Found entity 1: sign_div_unsign_5nh
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_c5f.tdf
     Info (12023): Found entity 1: alt_u_div_c5f
+Info (12130): Elaborated megafunction instantiation "COUNT:inst7|lpm_divide:Mod8"
+Info (12133): Instantiated megafunction "COUNT:inst7|lpm_divide:Mod8" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHN" = "4"
+    Info (12134): Parameter "LPM_WIDTHD" = "4"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_05m.tdf
+    Info (12023): Found entity 1: lpm_divide_05m
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_7kh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_7kh
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_gve.tdf
+    Info (12023): Found entity 1: alt_u_div_gve
 Info (12130): Elaborated megafunction instantiation "COUNT:inst7|lpm_divide:Div1"
 Info (12133): Instantiated megafunction "COUNT:inst7|lpm_divide:Div1" with the following parameter:
     Info (12134): Parameter "LPM_WIDTHN" = "30"
@@ -1472,13 +1665,17 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/sign
     Info (12023): Found entity 1: sign_div_unsign_hnh
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_46f.tdf
     Info (12023): Found entity 1: alt_u_div_46f
+Info (13014): Ignored 4 buffer(s)
+    Info (13016): Ignored 4 CARRY_SUM buffer(s)
 Info (13025): Duplicate LATCH primitives merged into single LATCH primitive
     Info (13026): Duplicate LATCH primitive "COUNT:inst7|QIBU[20]" merged with LATCH primitive "COUNT:inst7|QIBU[14]"
-    Info (13026): Duplicate LATCH primitive "COUNT:inst7|QIBU[21]" merged with LATCH primitive "COUNT:inst7|QIBU[15]"
     Info (13026): Duplicate LATCH primitive "COUNT:inst7|QIBU[18]" merged with LATCH primitive "COUNT:inst7|QIBU[10]"
     Info (13026): Duplicate LATCH primitive "COUNT:inst7|QIBU[16]" merged with LATCH primitive "COUNT:inst7|QIBU[6]"
+    Info (13026): Duplicate LATCH primitive "COUNT:inst7|QIBU[21]" merged with LATCH primitive "COUNT:inst7|QIBU[15]"
 Warning (13012): Latch MAIN:inst8|SUM_EN has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal MAIN:inst8|CS.SSUM
+Warning (13012): Latch MAIN:inst8|LAST_EN has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MAIN:inst8|CS.SLAST
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "dot0" is stuck at VCC
     Warning (13410): Pin "dot2" is stuck at VCC
@@ -1487,21 +1684,36 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "dot6" is stuck at VCC
     Warning (13410): Pin "dot7" is stuck at VCC
 Info (17016): Found the following redundant logic cells in design
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod16|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_13_result_int[0]~0"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod16|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_6_result_int[0]~14"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod16|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_7_result_int[0]~16"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod16|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_8_result_int[0]~18"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod16|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_9_result_int[0]~20"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod16|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_10_result_int[0]~22"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod16|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_11_result_int[0]~24"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod16|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_12_result_int[0]~26"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod11|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_13_result_int[0]~0"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod11|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_6_result_int[0]~14"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod11|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_7_result_int[0]~16"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod11|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_8_result_int[0]~18"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod11|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_9_result_int[0]~20"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod11|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_10_result_int[0]~22"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod11|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_11_result_int[0]~24"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod11|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_12_result_int[0]~26"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod15|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_13_result_int[0]~0"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod15|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|op_12~18"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod15|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_10_result_int[0]~22"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod15|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_11_result_int[0]~24"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod15|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_12_result_int[0]~26"
     Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod10|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_13_result_int[0]~0"
-    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod10|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_6_result_int[0]~14"
-    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod10|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_7_result_int[0]~16"
-    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod10|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_8_result_int[0]~18"
-    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod10|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_9_result_int[0]~20"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod10|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|op_12~18"
     Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod10|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_10_result_int[0]~22"
     Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod10|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_11_result_int[0]~24"
     Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod10|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_12_result_int[0]~26"
-    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod9|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_13_result_int[0]~0"
-    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod9|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|op_12~18"
-    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod9|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_10_result_int[0]~22"
-    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod9|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_11_result_int[0]~24"
-    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod9|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|add_sub_12_result_int[0]~26"
-    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod8|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|op_4~0"
-    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod8|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|op_3~18"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod14|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|op_4~0"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod14|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|op_3~18"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod9|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|op_4~0"
+    Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod9|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider|op_3~18"
     Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod1|lpm_divide_u7m:auto_generated|sign_div_unsign_5nh:divider|alt_u_div_c5f:divider|op_21~0"
     Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod1|lpm_divide_u7m:auto_generated|sign_div_unsign_5nh:divider|alt_u_div_c5f:divider|op_10~18"
     Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod1|lpm_divide_u7m:auto_generated|sign_div_unsign_5nh:divider|alt_u_div_c5f:divider|op_12~22"
@@ -1547,17 +1759,16 @@ Info (17016): Found the following redundant logic cells in design
     Info (17048): Logic cell "COUNT:inst7|lpm_divide:Mod6|lpm_divide_c8m:auto_generated|sign_div_unsign_jnh:divider|alt_u_div_86f:divider|op_8~22"
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 2 input pin(s) that do not drive logic
+Warning (21074): Design contains 1 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "SP1"
-    Warning (15610): No output dependent on input pin "KEY_REST"
-Info (21057): Implemented 7943 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 16 input pins
+Info (21057): Implemented 9243 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 17 input pins
     Info (21059): Implemented 64 output pins
-    Info (21061): Implemented 7863 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 143 warnings
-    Info: Peak virtual memory: 4835 megabytes
-    Info: Processing ended: Sun Apr 20 19:50:33 2025
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:09
+    Info (21061): Implemented 9162 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 37 warnings
+    Info: Peak virtual memory: 4825 megabytes
+    Info: Processing ended: Sun Apr 20 21:33:40 2025
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:10
 
 
