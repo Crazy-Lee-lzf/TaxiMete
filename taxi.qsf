@@ -1,0 +1,153 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 14:50:46  February 25, 2025
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		taxi_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C70F896C6
+set_global_assignment -name TOP_LEVEL_ENTITY taxi
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:50:46  FEBRUARY 25, 2025"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name VHDL_FILE fd.vhd
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name BDF_FILE taxi.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name VHDL_FILE clock_m.vhd
+set_global_assignment -name VHDL_FILE clock_h.vhd
+set_global_assignment -name VHDL_FILE COUNT.vhd
+set_global_assignment -name VHDL_FILE MAIN.vhd
+set_global_assignment -name VHDL_FILE TRANS.vhd
+set_global_assignment -name VHDL_FILE FD2.vhd
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_AD15 -to CLK
+set_location_assignment PIN_AA23 -to EN
+set_location_assignment PIN_AB25 -to PAUSE
+set_location_assignment PIN_AB26 -to START
+set_location_assignment PIN_AC27 -to SP1
+set_location_assignment PIN_AC26 -to SP2
+set_location_assignment PIN_AC24 -to SP3
+set_location_assignment PIN_AC23 -to SP4
+set_location_assignment PIN_AD25 -to CT0
+set_location_assignment PIN_AD24 -to CT1
+set_location_assignment PIN_AE8 -to OUT0[0]
+set_location_assignment PIN_AF9 -to OUT0[1]
+set_location_assignment PIN_AH9 -to OUT0[2]
+set_location_assignment PIN_AD10 -to OUT0[3]
+set_location_assignment PIN_AF10 -to OUT0[4]
+set_location_assignment PIN_AD11 -to OUT0[5]
+set_location_assignment PIN_AD12 -to OUT0[6]
+set_location_assignment PIN_AG13 -to OUT1[0]
+set_location_assignment PIN_AE16 -to OUT1[1]
+set_location_assignment PIN_AF16 -to OUT1[2]
+set_location_assignment PIN_AG16 -to OUT1[3]
+set_location_assignment PIN_AE17 -to OUT1[4]
+set_location_assignment PIN_AF17 -to OUT1[5]
+set_location_assignment PIN_AD17 -to OUT1[6]
+set_location_assignment PIN_AE7 -to OUT2[0]
+set_location_assignment PIN_AF7 -to OUT2[1]
+set_location_assignment PIN_AH5 -to OUT2[2]
+set_location_assignment PIN_AG4 -to OUT2[3]
+set_location_assignment PIN_AB18 -to OUT2[4]
+set_location_assignment PIN_AB19 -to OUT2[5]
+set_location_assignment PIN_AE19 -to OUT2[6]
+set_location_assignment PIN_P6 -to OUT3[0]
+set_location_assignment PIN_P4 -to OUT3[1]
+set_location_assignment PIN_N10 -to OUT3[2]
+set_location_assignment PIN_N7 -to OUT3[3]
+set_location_assignment PIN_M8 -to OUT3[4]
+set_location_assignment PIN_M7 -to OUT3[5]
+set_location_assignment PIN_M6 -to OUT3[6]
+set_location_assignment PIN_P1 -to OUT4[0]
+set_location_assignment PIN_P2 -to OUT4[1]
+set_location_assignment PIN_P3 -to OUT4[2]
+set_location_assignment PIN_N2 -to OUT4[3]
+set_location_assignment PIN_N3 -to OUT4[4]
+set_location_assignment PIN_M1 -to OUT4[5]
+set_location_assignment PIN_M2 -to OUT4[6]
+set_location_assignment PIN_M3 -to OUT5[0]
+set_location_assignment PIN_L1 -to OUT5[1]
+set_location_assignment PIN_L2 -to OUT5[2]
+set_location_assignment PIN_L3 -to OUT5[3]
+set_location_assignment PIN_K1 -to OUT5[4]
+set_location_assignment PIN_K4 -to OUT5[5]
+set_location_assignment PIN_K5 -to OUT5[6]
+set_location_assignment PIN_H6 -to OUT6[0]
+set_location_assignment PIN_H4 -to OUT6[1]
+set_location_assignment PIN_H7 -to OUT6[2]
+set_location_assignment PIN_H8 -to OUT6[3]
+set_location_assignment PIN_G4 -to OUT6[4]
+set_location_assignment PIN_F4 -to OUT6[5]
+set_location_assignment PIN_E4 -to OUT6[6]
+set_location_assignment PIN_K3 -to OUT7[0]
+set_location_assignment PIN_J1 -to OUT7[1]
+set_location_assignment PIN_J2 -to OUT7[2]
+set_location_assignment PIN_H1 -to OUT7[3]
+set_location_assignment PIN_H2 -to OUT7[4]
+set_location_assignment PIN_H3 -to OUT7[5]
+set_location_assignment PIN_G1 -to OUT7[6]
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_ASDO_AFTER_CONFIGURATION "AS INPUT TRI-STATED"
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/taxi/Waveform.vwf"
+set_location_assignment PIN_AF12 -to dot0
+set_location_assignment PIN_AC17 -to dot1
+set_location_assignment PIN_AC19 -to dot2
+set_location_assignment PIN_M4 -to dot3
+set_location_assignment PIN_L6 -to dot4
+set_location_assignment PIN_K6 -to dot5
+set_location_assignment PIN_K2 -to dot6
+set_location_assignment PIN_G2 -to dot7
+set_global_assignment -name VHDL_FILE SWT.vhd
+set_global_assignment -name VHDL_FILE FD3.vhd
+set_location_assignment PIN_U29 -to KEY3
+set_location_assignment PIN_L8 -to SHOW_DIS
+set_location_assignment PIN_L7 -to A1
+set_location_assignment PIN_L4 -to A2
+set_global_assignment -name VHDL_FILE SUM.vhd
+set_location_assignment PIN_T29 -to KEY_REST
+set_location_assignment PIN_L5 -to SW_SUM
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun Apr 20 19:51:12 2025
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : taxi
+Top-level Entity Name : taxi
+Family : Cyclone II
+Device : EP2C70F896C6
+Timing Models : Final
+Total logic elements : 7,867 / 68,416 ( 11 % )
+    Total combinational functions : 7,862 / 68,416 ( 11 % )
+    Dedicated logic registers : 152 / 68,416 ( < 1 % )
+Total registers : 152
+Total pins : 80 / 622 ( 13 % )
+Total virtual pins : 0
+Total memory bits : 0 / 1,152,000 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 300 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

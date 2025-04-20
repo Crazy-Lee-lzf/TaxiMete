@@ -1,0 +1,139 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "03/25/2025 16:04:59"
+                                                                        
+// Verilog Self-Checking Test Bench (with test vectors) for design :    taxi
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module taxi_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg CLK;
+reg CT0;
+reg CT1;
+reg EN;
+reg PAUSE;
+reg SP1;
+reg SP2;
+reg SP3;
+reg SP4;
+reg START;
+// wires                                               
+wire [6:0] OUT0;
+wire [6:0] OUT1;
+wire [6:0] OUT2;
+wire [6:0] OUT3;
+wire [6:0] OUT4;
+wire [6:0] OUT5;
+wire [6:0] OUT6;
+wire [6:0] OUT7;
+
+// assign statements (if any)                          
+taxi i1 (
+// port map - connection between master ports and signals/registers   
+	.CLK(CLK),
+	.CT0(CT0),
+	.CT1(CT1),
+	.EN(EN),
+	.OUT0(OUT0),
+	.OUT1(OUT1),
+	.OUT2(OUT2),
+	.OUT3(OUT3),
+	.OUT4(OUT4),
+	.OUT5(OUT5),
+	.OUT6(OUT6),
+	.OUT7(OUT7),
+	.PAUSE(PAUSE),
+	.SP1(SP1),
+	.SP2(SP2),
+	.SP3(SP3),
+	.SP4(SP4),
+	.START(START)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// CLK
+always
+begin
+	CLK = 1'b0;
+	CLK = #500 1'b1;
+	#500;
+end 
+
+// EN
+initial
+begin
+	EN = 1'b0;
+	EN = #10000 1'b1;
+end 
+
+// START
+initial
+begin
+	START = 1'b0;
+	START = #40000 1'b1;
+	START = #170000 1'b0;
+	START = #20000 1'b1;
+end 
+
+// PAUSE
+initial
+begin
+	PAUSE = 1'b0;
+	PAUSE = #80000 1'b1;
+	PAUSE = #40000 1'b0;
+end 
+
+// SP1
+initial
+begin
+	SP1 = 1'b0;
+end 
+
+// SP2
+initial
+begin
+	SP2 = 1'b0;
+end 
+
+// SP3
+initial
+begin
+	SP3 = 1'b0;
+end 
+
+// SP4
+initial
+begin
+	SP4 = 1'b0;
+end 
+initial 
+begin 
+#1000000 $finish;
+end 
+endmodule
+

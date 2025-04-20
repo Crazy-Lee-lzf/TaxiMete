@@ -1,0 +1,198 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+ENTITY MAIN IS
+	PORT(	CLK, EN, START, PAUSE : IN STD_LOGIC;
+			CT0, CT1 : IN STD_LOGIC;
+			M0, M1, H0, H1 : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+			COST0, COST1, COST2, COST3 : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+			
+			FLASH : IN STD_LOGIC;	--闪烁时钟
+			
+			DIS0, DIS1, DIS2, DIS3 : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+			SHOW_DIS : IN STD_LOGIC;
+			
+			SHOW_SUM : IN STD_LOGIC;
+			SUM_DATA : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+			
+			D : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+			RS : OUT STD_LOGIC;		--复位信号
+			ST : OUT STD_LOGIC;		--启动信号
+			DOT : OUT STD_LOGIC;		--小数点是否显示
+			CT : OUT STD_LOGIC;		--是否在修改时间（使时间模块失能） 
+			SUM_EN : OUT STD_LOGIC
+			);
+END MAIN;
+
+ARCHITECTURE BHV OF MAIN IS
+	TYPE TAXI_ST IS (S0, S1, SRUN0, SRUN1, SPAUSE, SCT0, SCT1, SSUM);
+					--关机  待机   启动   运行   暂停  	分钟 小时 显示里程 显示总收入 
+	SIGNAL CS : TAXI_ST; 
+	SIGNAL NS : TAXI_ST;
+	
+	SIGNAL HH0, HH1, MM0, MM1 : STD_LOGIC_VECTOR(3 DOWNTO 0);
+BEGIN
+REG1 : PROCESS(CLK, EN)
+BEGIN
+
+
+IF EN = '1' THEN
+IF CLK'EVENT AND CLK = '1' THEN
+		CS <= NS;
+END IF;
+ELSE
+	CS <= S0;
+END IF;
+END PROCESS;
+
+REG2 : PROCESS(CS, CT0, CT1, START)
+BEGIN
+CASE CS IS
+	WHEN S0 =>
+		NS <= S1;
+	WHEN S1 => 
+		IF START = '1' THEN NS <= SRUN0;
+		ELSIF CT0 = '1' THEN NS <= SCT0;
+		ELSIF CT1 = '1' THEN NS <= SCT1;
+		ELSIF SHOW_SUM = '1' THEN NS <= SSUM;
+		ELSE NS <= S1;
+		END IF;
+	WHEN SRUN0 => 
+		NS <= SRUN1;
+	WHEN SRUN1 =>
+		IF PAUSE = '1' THEN NS <= SPAUSE;
+		ELSIF START = '0' THEN NS <= S1;
+		ELSE NS <= SRUN1;
+		END IF;
+	WHEN SPAUSE =>
+		IF PAUSE = '0' THEN NS <= SRUN1;
+		ELSE NS <= SPAUSE;
+		END IF;
+	WHEN SCT0 =>
+		IF CT1 = '1' THEN NS <= SCT1;
+		ELSIF CT0 = '0' THEN NS <= S1;
+		ELSE NS <= SCT0;
+		END IF;
+	WHEN SCT1 =>
+		IF CT0 = '1' THEN NS <= SCT0;
+		ELSIF CT1 = '0' THEN NS <= S1;
+		ELSE NS <= SCT1;
+		END IF;
+	WHEN SSUM =>
+		IF SHOW_SUM = '0' THEN NS <= S1;
+		ELSE NS <= SSUM;
+		END IF;
+END CASE;
+END PROCESS;
+
+COM1 : PROCESS(FLASH)
+BEGIN
+IF CS = SCT0 THEN
+	IF FLASH = '0' THEN
+		MM0 <= "1011";
+		MM1 <= "1011";
+	ELSe
+		MM0 <= M0;
+		MM1 <= M1;
+	END IF;
+ELSIF CS = SCT1 THEN
+	IF FLASH = '0' THEN
+		HH0 <= "1011";
+		HH1 <= "1011";
+	ELSE
+		HH0 <= H0;
+		HH1 <= H1;
+	END IF;
+ELSE
+	MM0 <= M0;
+	MM1 <= M1;
+	HH0 <= H0;
+	HH1 <= H1;
+END IF;
+END PROCESS;
+
+REG3 : PROCESS(CLK, CS, SHOW_DIS)
+BEGIN
+
+CASE CS IS
+	WHEN S0 =>
+		D <= "0010"&"0000"&"0001"&"0101"&"0001"&"1000"&"1000"&"1000";
+		ST <= '0';
+		RS <= '0';
+		DOT <= '1';
+		CT <= '1';
+	WHEN S1 =>
+		IF SHOW_DIS = '1' THEN D <= DIS3 & DIS2 & DIS1 & DIS0 & COST3 & COST2 & COST1 & COST0;
+		ELSE D <= HH1 & HH0 & MM1 & MM0 & COST3 & COST2 & COST1 & COST0;
+		END IF;
+		ST <= '0';
+		RS <= '0';
+		DOT <= '0';
+		CT <= '1';
+		SUM_EN <= '0';
+	WHEN SRUN0 =>
+		IF SHOW_DIS = '1' THEN D <= DIS3 & DIS2 & DIS1 & DIS0 & COST3 & COST2 & COST1 & COST0;
+		ELSE D <= HH1 & HH0 & MM1 & MM0 & COST3 & COST2 & COST1 & COST0;
+		END IF;
+		ST <= '1';
+		RS <= '1';
+		DOT <= '0';
+		CT <= '1';
+	WHEN SRUN1 =>
+		IF SHOW_DIS = '1' THEN D <= DIS3 & DIS2 & DIS1 & DIS0 & COST3 & COST2 & COST1 & COST0;
+		ELSE D <= HH1 & HH0 & MM1 & MM0 & COST3 & COST2 & COST1 & COST0;
+		END IF;
+		ST <= '1';
+		RS <= '0';
+		DOT <= '0';
+		CT <= '1';
+	WHEN SPAUSE =>
+		--D <= "0001"&"0000"&"0000"&"0000"&"0000"&"0000"&"0000"&"0000";
+		IF SHOW_DIS = '1' THEN D <= DIS3 & DIS2 & DIS1 & DIS0 & COST3 & COST2 & COST1 & COST0;
+		ELSE D <= HH1 & HH0 & MM1 & MM0 & COST3 & COST2 & COST1 & COST0;
+		END IF;
+		ST <= '0';
+		RS <= '0';
+		DOT <= '0';
+		CT <= '1';
+	WHEN SCT0 =>
+		--D <= "0010"&"0000"&"0000"&"0000"&"0000"&"0000"&"0000"&"0000";
+		
+		D <= HH1 & HH0 & MM1 & MM0 & COST3 & COST2 & COST1 & COST0;
+		ST <= '0';
+		RS <= '0';
+		CT <= '0';
+		
+	WHEN SCT1 =>
+		--D <= "0011"&"0000"&"0000"&"0000"&"0000"&"0000"&"0000"&"0000";
+	
+		D <= HH1 & HH0 & MM1 & MM0 & COST3 & COST2 & COST1 & COST0;
+		ST <= '0';
+		RS <= '0';
+		CT <= '0';
+	
+	WHEN SSUM =>
+		IF SHOW_DIS = '1' THEN D <= DIS3 & DIS2 & DIS1 & DIS0 & SUM_DATA;
+		ELSE D <= HH1 & HH0 & MM1 & MM0 & SUM_DATA;
+		END IF;
+		ST <= '0';
+		RS <= '0';
+		DOT <= '0';
+		CT <= '1';
+		SUM_EN <= '1';
+		
+END CASE;
+END PROCESS;
+END BHV;
+
+
+
+
+
+
+
+
+
+
+

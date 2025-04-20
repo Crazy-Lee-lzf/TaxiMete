@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\taxi\simulation\qsim
+vtaxi
+Z1 !s100 eKze@VNG:bVlLH0P88gUI1
+Z2 IzhFUAOoQiFiiY4k?P5T7[1
+Z3 V`g6hLX`:]cOzICIDb5a5=3
+Z4 dD:\taxi\simulation\qsim
+Z5 w1742889901
+Z6 8taxi.vo
+Z7 Ftaxi.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|taxi.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1742889901.797000
+Z12 !s107 taxi.vo|
+!s101 -O0
+vtaxi_vlg_check_tst
+Z13 !s100 OiQ`ccUGHnQlK?N@<zol92
+Z14 IGS^Gb7QNC:aniW_bRccV22
+Z15 V_DLAL7BL@;NKiLAlhM?E;2
+R4
+Z16 w1742281100
+Z17 8taxi.vt
+Z18 Ftaxi.vt
+L0 77
+R8
+r1
+31
+Z19 !s108 1742281103.227000
+Z20 !s107 taxi.vt|
+Z21 !s90 -work|work|taxi.vt|
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vtaxi_vlg_sample_tst
+Z22 !s100 9a^9]hoI@`_MYg`5ZYzoH2
+Z23 I=Vg0G81m95MoKdfcn^an93
+Z24 VG[CN;e9`BPBHf]b0e?lZU2
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+31
+R19
+R20
+R21
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vtaxi_vlg_vec_tst
+!i10b 1
+Z25 !s100 8hNC3]Ka^Fno9WkEeiHef2
+Z26 I_:hkD7b31;ClUB;IHRA970
+Z27 VLWeiT9RaYXT<5_j07CNG]0
+R4
+w1742889899
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+!s108 1742889902.375000
+!s107 taxi.vt|
+R21
+!s101 -O0
+R10
