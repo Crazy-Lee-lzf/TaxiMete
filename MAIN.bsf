@@ -240,6 +240,13 @@ applicable agreement for further details.
 		(text "LAST_EN" (rect 165 123 211 135)(font "Arial" ))
 		(line (pt 232 128)(pt 216 128)(line_width 1))
 	)
+	(port
+		(pt 232 144)
+		(output)
+		(text "LOAD" (rect 0 0 28 12)(font "Arial" ))
+		(text "LOAD" (rect 183 139 211 151)(font "Arial" ))
+		(line (pt 232 144)(pt 216 144)(line_width 1))
+	)
 	(drawing
 		(rectangle (rect 16 16 216 416)(line_width 1))
 	)

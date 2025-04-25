@@ -15,7 +15,6 @@
 # Loading work.taxi_vlg_vec_tst
 # Loading work.taxi
 # Loading cycloneii_ver.cycloneii_lcell_comb
-# Loading cycloneii_ver.cycloneii_mac_out
 # Loading cycloneii_ver.cycloneii_lcell_ff
 # Loading cycloneii_ver.cycloneii_io
 # Loading cycloneii_ver.cycloneii_mux21
@@ -24,45 +23,9 @@
 # Loading cycloneii_ver.cycloneii_clkctrl
 # Loading cycloneii_ver.cycloneii_mux41
 # Loading cycloneii_ver.cycloneii_ena_reg
-# Loading cycloneii_ver.cycloneii_mac_mult
-# Loading cycloneii_ver.cycloneii_mac_data_reg
-# Loading cycloneii_ver.cycloneii_mac_sign_reg
-# Loading cycloneii_ver.cycloneii_mac_mult_internal
 # Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
-# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6778): Non-positive replication multiplier inside concat. Replication will be ignored.
-# 
-# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6779): Non-positive replication multiplier inside concat. Replication will be ignored.
-# 
-# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6778): Non-positive replication multiplier inside concat. Replication will be ignored.
-# 
-# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6779): Non-positive replication multiplier inside concat. Replication will be ignored.
-# 
-# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6778): Non-positive replication multiplier inside concat. Replication will be ignored.
-# 
-# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6779): Non-positive replication multiplier inside concat. Replication will be ignored.
-# 
-# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6778): Non-positive replication multiplier inside concat. Replication will be ignored.
-# 
-# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6779): Non-positive replication multiplier inside concat. Replication will be ignored.
-# 
-# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6778): Non-positive replication multiplier inside concat. Replication will be ignored.
-# 
-# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6779): Non-positive replication multiplier inside concat. Replication will be ignored.
-# 
-# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6778): Non-positive replication multiplier inside concat. Replication will be ignored.
-# 
-# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6779): Non-positive replication multiplier inside concat. Replication will be ignored.
-# 
-# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6778): Non-positive replication multiplier inside concat. Replication will be ignored.
-# 
-# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6779): Non-positive replication multiplier inside concat. Replication will be ignored.
-# 
-# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6778): Non-positive replication multiplier inside concat. Replication will be ignored.
-# 
-# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6779): Non-positive replication multiplier inside concat. Replication will be ignored.
-# 
 # ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
 # This may because you are loading cell libraries which are not recommended with
 # the ModelSim Altera version. Expect performance to be adversely affected.
-# ** Note: $finish    : taxi.vt(76)
+# ** Note: $finish    : taxi.vt(106)
 #    Time: 1 us  Iteration: 0  Instance: /taxi_vlg_vec_tst

@@ -26,13 +26,14 @@ ENTITY MAIN IS
 			DOT : OUT STD_LOGIC;		--小数点是否显示
 			CT : OUT STD_LOGIC;		--是否在修改时间（使时间模块失能） 
 			SUM_EN : OUT STD_LOGIC;
-			LAST_EN : OUT STD_LOGIC
+			LAST_EN : OUT STD_LOGIC;
+			LOAD : OUT STD_LOGIC
 			);
 END MAIN;
 
 ARCHITECTURE BHV OF MAIN IS
-	TYPE TAXI_ST IS (S0, S1, SRUN0, SRUN1, SPAUSE, SCT0, SCT1, SSUM, SLAST);
-					--关机  待机   启动   运行   暂停  	分钟 小时 显示里程 显示总收入 显示最近收入
+	TYPE TAXI_ST IS (S0, S1, SRUN0, SRUN1, SRUN2, SPAUSE, SCT0, SCT1, SSUM, SLAST);
+					--关机  待机   启动   运行  	结束   暂停 	分钟 小时 显示里程 显示总收入 显示最近收入
 	SIGNAL CS : TAXI_ST; 
 	SIGNAL NS : TAXI_ST;
 	
@@ -68,9 +69,11 @@ CASE CS IS
 		NS <= SRUN1;
 	WHEN SRUN1 =>
 		IF PAUSE = '1' THEN NS <= SPAUSE;
-		ELSIF START = '0' THEN NS <= S1;
+		ELSIF START = '0' THEN NS <= SRUN2;
 		ELSE NS <= SRUN1;
 		END IF;
+	WHEN SRUN2 =>
+		NS <= S1;
 	WHEN SPAUSE =>
 		IF PAUSE = '0' THEN NS <= SRUN1;
 		ELSE NS <= SPAUSE;
@@ -93,6 +96,8 @@ CASE CS IS
 		IF SHOW_LAST = '0' THEN NS <= S1;
 		ELSE NS <= SLAST;
 		END IF;
+	WHEN OTHERS =>
+		NS <= S1;
 END CASE;
 END PROCESS;
 
@@ -130,8 +135,11 @@ CASE CS IS
 		D <= "0010"&"0000"&"0001"&"0101"&"0001"&"1000"&"1000"&"1000";
 		ST <= '0';
 		RS <= '0';
-		DOT <= '1';
+		DOT <= '0';
 		CT <= '1';
+		SUM_EN <= '0';
+		LAST_EN <= '0';
+		LOAD <= '0';
 	WHEN S1 =>
 		IF SHOW_DIS = '1' THEN D <= DIS3 & DIS2 & DIS1 & DIS0 & COST3 & COST2 & COST1 & COST0;
 		ELSE D <= HH1 & HH0 & MM1 & MM0 & COST3 & COST2 & COST1 & COST0;
@@ -142,6 +150,7 @@ CASE CS IS
 		CT <= '1';
 		SUM_EN <= '0';
 		LAST_EN <= '0';
+		LOAD <= '0';
 	WHEN SRUN0 =>
 		IF SHOW_DIS = '1' THEN D <= DIS3 & DIS2 & DIS1 & DIS0 & COST3 & COST2 & COST1 & COST0;
 		ELSE D <= HH1 & HH0 & MM1 & MM0 & COST3 & COST2 & COST1 & COST0;
@@ -150,6 +159,9 @@ CASE CS IS
 		RS <= '1';
 		DOT <= '0';
 		CT <= '1';
+		SUM_EN <= '0';
+		LAST_EN <= '0';
+		LOAD <= '0';
 	WHEN SRUN1 =>
 		IF SHOW_DIS = '1' THEN D <= DIS3 & DIS2 & DIS1 & DIS0 & COST3 & COST2 & COST1 & COST0;
 		ELSE D <= HH1 & HH0 & MM1 & MM0 & COST3 & COST2 & COST1 & COST0;
@@ -158,8 +170,10 @@ CASE CS IS
 		RS <= '0';
 		DOT <= '0';
 		CT <= '1';
-	WHEN SPAUSE =>
-		--D <= "0001"&"0000"&"0000"&"0000"&"0000"&"0000"&"0000"&"0000";
+		SUM_EN <= '0';
+		LAST_EN <= '0';
+		LOAD <= '0';
+	WHEN SRUN2 =>
 		IF SHOW_DIS = '1' THEN D <= DIS3 & DIS2 & DIS1 & DIS0 & COST3 & COST2 & COST1 & COST0;
 		ELSE D <= HH1 & HH0 & MM1 & MM0 & COST3 & COST2 & COST1 & COST0;
 		END IF;
@@ -167,36 +181,65 @@ CASE CS IS
 		RS <= '0';
 		DOT <= '0';
 		CT <= '1';
+		SUM_EN <= '0';
+		LAST_EN <= '0';
+		LOAD <= '1';
+	WHEN SPAUSE =>
+		--D <= "1001"&"0000"&"0000"&"0000"&"0000"&"0000"&"0000"&"0000";
+		IF SHOW_DIS = '1' THEN D <= DIS3 & DIS2 & DIS1 & DIS0 & COST3 & COST2 & COST1 & COST0;
+		ELSE D <= HH1 & HH0 & MM1 & MM0 & COST3 & COST2 & COST1 & COST0;
+		END IF;
+		ST <= '0';
+		RS <= '0';
+		DOT <= '0';
+		CT <= '1';
+		SUM_EN <= '0';
+		LAST_EN <= '0';
+		LOAD <= '0';
 	WHEN SCT0 =>
 		--D <= "0010"&"0000"&"0000"&"0000"&"0000"&"0000"&"0000"&"0000";
-		
 		D <= HH1 & HH0 & MM1 & MM0 & COST3 & COST2 & COST1 & COST0;
 		ST <= '0';
 		RS <= '0';
+		DOT <= '0';
 		CT <= '0';
-		
+		SUM_EN <= '0';
+		LAST_EN <= '0';
+		LOAD <= '0';
 	WHEN SCT1 =>
 		--D <= "0011"&"0000"&"0000"&"0000"&"0000"&"0000"&"0000"&"0000";
-	
 		D <= HH1 & HH0 & MM1 & MM0 & COST3 & COST2 & COST1 & COST0;
 		ST <= '0';
 		RS <= '0';
+		DOT <= '0';
 		CT <= '0';
-	
+		SUM_EN <= '0';
+		LAST_EN <= '0';
+		LOAD <= '0';
 	WHEN SSUM =>
-		D <= HH1 & HH0 & MM1 & MM0 & SUM_DATA;
+		IF SHOW_DIS = '1' THEN D <= DIS3 & DIS2 & DIS1 & DIS0 & SUM_DATA;
+		ELSE D <= HH1 & HH0 & MM1 & MM0 & SUM_DATA;
+		END IF;
 		ST <= '0';
 		RS <= '0';
 		DOT <= '0';
 		CT <= '1';
 		SUM_EN <= '1';
+		LAST_EN <= '0';
+		LOAD <= '0';
 	WHEN SLAST =>
-		D <= HH1 & HH0 & MM1 & MM0 & LAST_DATA;
+		IF SHOW_DIS = '1' THEN D <= DIS3 & DIS2 & DIS1 & DIS0 & LAST_DATA;
+		ELSE D <= HH1 & HH0 & MM1 & MM0 & LAST_DATA;
+		END IF;
 		ST <= '0';
 		RS <= '0';
 		DOT <= '0';
 		CT <= '1';
+		SUM_EN <= '0';
 		LAST_EN <= '1';
+		LOAD <= '0';
+	WHEN OTHERS =>
+		D <= "0000"&"0000"&"0000"&"0000"&"0000"&"0000"&"0000"&"0000";
 END CASE;
 END PROCESS;
 END BHV;
