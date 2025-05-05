@@ -1,5 +1,5 @@
 Analysis & Synthesis report for taxi
-Sat Apr 26 00:54:55 2025
+Tue Apr 29 15:27:15 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -13,46 +13,52 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. State Machine - |taxi|MAIN:inst8|CS
-  9. User-Specified and Inferred Latches
- 10. General Register Statistics
- 11. Inverted Register Statistics
- 12. Multiplexer Restructuring Statistics (Restructuring Performed)
- 13. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod12
- 14. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div0
- 15. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod0
- 16. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod18
- 17. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div10
- 18. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod11
- 19. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div1
- 20. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod1
- 21. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div13
- 22. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod17
- 23. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div9
- 24. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod10
- 25. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div2
- 26. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod2
- 27. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div12
- 28. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod16
- 29. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div8
- 30. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod9
- 31. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div3
- 32. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod3
- 33. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div11
- 34. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod15
- 35. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div4
- 36. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod4
- 37. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div5
- 38. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod5
- 39. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div6
- 40. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod6
- 41. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div7
- 42. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod7
- 43. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod13
- 44. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod14
- 45. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod8
- 46. Elapsed Time Per Partition
- 47. Analysis & Synthesis Messages
+  8. Analysis & Synthesis DSP Block Usage Summary
+  9. State Machine - |taxi|MAIN:inst8|CS
+ 10. User-Specified and Inferred Latches
+ 11. General Register Statistics
+ 12. Inverted Register Statistics
+ 13. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 14. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod12
+ 15. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div0
+ 16. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod0
+ 17. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod18
+ 18. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div10
+ 19. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod11
+ 20. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div1
+ 21. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod1
+ 22. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div13
+ 23. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod17
+ 24. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div9
+ 25. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod10
+ 26. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div2
+ 27. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod2
+ 28. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div12
+ 29. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod16
+ 30. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div8
+ 31. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod9
+ 32. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div3
+ 33. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod3
+ 34. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div11
+ 35. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod15
+ 36. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div4
+ 37. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod4
+ 38. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div5
+ 39. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod5
+ 40. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div6
+ 41. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod6
+ 42. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Div7
+ 43. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod7
+ 44. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod13
+ 45. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod14
+ 46. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_mult:Mult1
+ 47. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_mult:Mult0
+ 48. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_mult:Mult3
+ 49. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_mult:Mult2
+ 50. Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod8
+ 51. lpm_mult Parameter Settings by Entity Instance
+ 52. Elapsed Time Per Partition
+ 53. Analysis & Synthesis Messages
 
 
 
@@ -78,19 +84,19 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Apr 26 00:54:55 2025           ;
+; Analysis & Synthesis Status        ; Successful - Tue Apr 29 15:27:15 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; taxi                                            ;
 ; Top-level Entity Name              ; taxi                                            ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 7,642                                           ;
-;     Total combinational functions  ; 7,641                                           ;
+; Total logic elements               ; 7,201                                           ;
+;     Total combinational functions  ; 7,200                                           ;
 ;     Dedicated logic registers      ; 196                                             ;
 ; Total registers                    ; 196                                             ;
 ; Total pins                         ; 81                                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0                                               ;
-; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 8                                               ;
 ; Total PLLs                         ; 0                                               ;
 +------------------------------------+-------------------------------------------------+
 
@@ -186,7 +192,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 ; Processors                 ; Number ;
 +----------------------------+--------+
-; Number detected on machine ; 12     ;
+; Number detected on machine ; 6      ;
 ; Maximum allowed            ; 1      ;
 +----------------------------+--------+
 
@@ -196,67 +202,74 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                          ; Library ;
 +----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+---------+
-; fd.vhd                           ; yes             ; User VHDL File                     ; D:/FPGA/taxi/fd.vhd                                                   ;         ;
-; taxi.bdf                         ; yes             ; User Block Diagram/Schematic File  ; D:/FPGA/taxi/taxi.bdf                                                 ;         ;
-; clock_m.vhd                      ; yes             ; User VHDL File                     ; D:/FPGA/taxi/clock_m.vhd                                              ;         ;
-; clock_h.vhd                      ; yes             ; User VHDL File                     ; D:/FPGA/taxi/clock_h.vhd                                              ;         ;
-; COUNT.vhd                        ; yes             ; User VHDL File                     ; D:/FPGA/taxi/COUNT.vhd                                                ;         ;
-; MAIN.vhd                         ; yes             ; User VHDL File                     ; D:/FPGA/taxi/MAIN.vhd                                                 ;         ;
-; TRANS.vhd                        ; yes             ; User VHDL File                     ; D:/FPGA/taxi/TRANS.vhd                                                ;         ;
-; FD2.vhd                          ; yes             ; User VHDL File                     ; D:/FPGA/taxi/FD2.vhd                                                  ;         ;
-; SWT.vhd                          ; yes             ; User VHDL File                     ; D:/FPGA/taxi/SWT.vhd                                                  ;         ;
-; FD3.vhd                          ; yes             ; User VHDL File                     ; D:/FPGA/taxi/FD3.vhd                                                  ;         ;
-; lpm_divide.tdf                   ; yes             ; Megafunction                       ; d:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_divide.tdf      ;         ;
-; abs_divider.inc                  ; yes             ; Megafunction                       ; d:/altera/13.0sp1/quartus/libraries/megafunctions/abs_divider.inc     ;         ;
-; sign_div_unsign.inc              ; yes             ; Megafunction                       ; d:/altera/13.0sp1/quartus/libraries/megafunctions/sign_div_unsign.inc ;         ;
-; aglobal130.inc                   ; yes             ; Megafunction                       ; d:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc      ;         ;
-; db/lpm_divide_28m.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_28m.tdf                                    ;         ;
-; db/sign_div_unsign_9nh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/sign_div_unsign_9nh.tdf                               ;         ;
-; db/alt_u_div_k5f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_k5f.tdf                                     ;         ;
-; db/add_sub_lkc.tdf               ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/add_sub_lkc.tdf                                       ;         ;
-; db/add_sub_mkc.tdf               ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/add_sub_mkc.tdf                                       ;         ;
-; db/lpm_divide_3gm.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_3gm.tdf                                    ;         ;
-; db/sign_div_unsign_dnh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/sign_div_unsign_dnh.tdf                               ;         ;
-; db/alt_u_div_s5f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_s5f.tdf                                     ;         ;
-; db/lpm_divide_a8m.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_a8m.tdf                                    ;         ;
-; db/sign_div_unsign_inh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/sign_div_unsign_inh.tdf                               ;         ;
-; db/alt_u_div_56f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_56f.tdf                                     ;         ;
-; db/lpm_divide_eem.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_eem.tdf                                    ;         ;
-; db/sign_div_unsign_olh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/sign_div_unsign_olh.tdf                               ;         ;
-; db/alt_u_div_i2f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_i2f.tdf                                     ;         ;
-; db/lpm_divide_6gm.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_6gm.tdf                                    ;         ;
-; db/sign_div_unsign_gnh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/sign_div_unsign_gnh.tdf                               ;         ;
-; db/alt_u_div_26f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_26f.tdf                                     ;         ;
-; db/lpm_divide_hem.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_hem.tdf                                    ;         ;
-; db/sign_div_unsign_rlh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/sign_div_unsign_rlh.tdf                               ;         ;
-; db/alt_u_div_o2f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_o2f.tdf                                     ;         ;
-; db/lpm_divide_2gm.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_2gm.tdf                                    ;         ;
-; db/sign_div_unsign_cnh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/sign_div_unsign_cnh.tdf                               ;         ;
-; db/alt_u_div_o5f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_o5f.tdf                                     ;         ;
-; db/lpm_divide_rfm.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_rfm.tdf                                    ;         ;
-; db/sign_div_unsign_6nh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/sign_div_unsign_6nh.tdf                               ;         ;
-; db/alt_u_div_d5f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_d5f.tdf                                     ;         ;
-; db/lpm_divide_5gm.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_5gm.tdf                                    ;         ;
-; db/sign_div_unsign_fnh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/sign_div_unsign_fnh.tdf                               ;         ;
-; db/alt_u_div_v5f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_v5f.tdf                                     ;         ;
-; db/lpm_divide_mem.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_mem.tdf                                    ;         ;
-; db/sign_div_unsign_0mh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/sign_div_unsign_0mh.tdf                               ;         ;
-; db/alt_u_div_23f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_23f.tdf                                     ;         ;
-; db/lpm_divide_c8m.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_c8m.tdf                                    ;         ;
-; db/sign_div_unsign_jnh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/sign_div_unsign_jnh.tdf                               ;         ;
-; db/alt_u_div_86f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_86f.tdf                                     ;         ;
-; db/lpm_divide_1gm.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_1gm.tdf                                    ;         ;
-; db/sign_div_unsign_bnh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/sign_div_unsign_bnh.tdf                               ;         ;
-; db/alt_u_div_n5f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_n5f.tdf                                     ;         ;
-; db/lpm_divide_4gm.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_4gm.tdf                                    ;         ;
-; db/sign_div_unsign_enh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/sign_div_unsign_enh.tdf                               ;         ;
-; db/alt_u_div_u5f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_u5f.tdf                                     ;         ;
-; db/lpm_divide_7gm.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_7gm.tdf                                    ;         ;
-; db/sign_div_unsign_hnh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/sign_div_unsign_hnh.tdf                               ;         ;
-; db/alt_u_div_46f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_46f.tdf                                     ;         ;
-; db/lpm_divide_05m.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/lpm_divide_05m.tdf                                    ;         ;
-; db/sign_div_unsign_7kh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/sign_div_unsign_7kh.tdf                               ;         ;
-; db/alt_u_div_gve.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/FPGA/taxi/db/alt_u_div_gve.tdf                                     ;         ;
+; fd.vhd                           ; yes             ; User VHDL File                     ; D:/TaxiMete-3.0/fd.vhd                                                ;         ;
+; taxi.bdf                         ; yes             ; User Block Diagram/Schematic File  ; D:/TaxiMete-3.0/taxi.bdf                                              ;         ;
+; clock_m.vhd                      ; yes             ; User VHDL File                     ; D:/TaxiMete-3.0/clock_m.vhd                                           ;         ;
+; clock_h.vhd                      ; yes             ; User VHDL File                     ; D:/TaxiMete-3.0/clock_h.vhd                                           ;         ;
+; COUNT.vhd                        ; yes             ; User VHDL File                     ; D:/TaxiMete-3.0/COUNT.vhd                                             ;         ;
+; MAIN.vhd                         ; yes             ; User VHDL File                     ; D:/TaxiMete-3.0/MAIN.vhd                                              ;         ;
+; TRANS.vhd                        ; yes             ; User VHDL File                     ; D:/TaxiMete-3.0/TRANS.vhd                                             ;         ;
+; FD2.vhd                          ; yes             ; User VHDL File                     ; D:/TaxiMete-3.0/FD2.vhd                                               ;         ;
+; SWT.vhd                          ; yes             ; User VHDL File                     ; D:/TaxiMete-3.0/SWT.vhd                                               ;         ;
+; FD3.vhd                          ; yes             ; User VHDL File                     ; D:/TaxiMete-3.0/FD3.vhd                                               ;         ;
+; lpm_divide.tdf                   ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_divide.tdf      ;         ;
+; abs_divider.inc                  ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/abs_divider.inc     ;         ;
+; sign_div_unsign.inc              ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/sign_div_unsign.inc ;         ;
+; aglobal130.inc                   ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc      ;         ;
+; db/lpm_divide_28m.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/lpm_divide_28m.tdf                                 ;         ;
+; db/sign_div_unsign_9nh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/sign_div_unsign_9nh.tdf                            ;         ;
+; db/alt_u_div_k5f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/alt_u_div_k5f.tdf                                  ;         ;
+; db/add_sub_lkc.tdf               ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/add_sub_lkc.tdf                                    ;         ;
+; db/add_sub_mkc.tdf               ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/add_sub_mkc.tdf                                    ;         ;
+; db/lpm_divide_3gm.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/lpm_divide_3gm.tdf                                 ;         ;
+; db/sign_div_unsign_dnh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/sign_div_unsign_dnh.tdf                            ;         ;
+; db/alt_u_div_s5f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/alt_u_div_s5f.tdf                                  ;         ;
+; db/lpm_divide_a8m.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/lpm_divide_a8m.tdf                                 ;         ;
+; db/sign_div_unsign_inh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/sign_div_unsign_inh.tdf                            ;         ;
+; db/alt_u_div_56f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/alt_u_div_56f.tdf                                  ;         ;
+; db/lpm_divide_eem.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/lpm_divide_eem.tdf                                 ;         ;
+; db/sign_div_unsign_olh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/sign_div_unsign_olh.tdf                            ;         ;
+; db/alt_u_div_i2f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/alt_u_div_i2f.tdf                                  ;         ;
+; db/lpm_divide_6gm.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/lpm_divide_6gm.tdf                                 ;         ;
+; db/sign_div_unsign_gnh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/sign_div_unsign_gnh.tdf                            ;         ;
+; db/alt_u_div_26f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/alt_u_div_26f.tdf                                  ;         ;
+; db/lpm_divide_hem.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/lpm_divide_hem.tdf                                 ;         ;
+; db/sign_div_unsign_rlh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/sign_div_unsign_rlh.tdf                            ;         ;
+; db/alt_u_div_o2f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/alt_u_div_o2f.tdf                                  ;         ;
+; db/lpm_divide_2gm.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/lpm_divide_2gm.tdf                                 ;         ;
+; db/sign_div_unsign_cnh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/sign_div_unsign_cnh.tdf                            ;         ;
+; db/alt_u_div_o5f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/alt_u_div_o5f.tdf                                  ;         ;
+; db/lpm_divide_rfm.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/lpm_divide_rfm.tdf                                 ;         ;
+; db/sign_div_unsign_6nh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/sign_div_unsign_6nh.tdf                            ;         ;
+; db/alt_u_div_d5f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/alt_u_div_d5f.tdf                                  ;         ;
+; db/lpm_divide_5gm.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/lpm_divide_5gm.tdf                                 ;         ;
+; db/sign_div_unsign_fnh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/sign_div_unsign_fnh.tdf                            ;         ;
+; db/alt_u_div_v5f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/alt_u_div_v5f.tdf                                  ;         ;
+; db/lpm_divide_mem.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/lpm_divide_mem.tdf                                 ;         ;
+; db/sign_div_unsign_0mh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/sign_div_unsign_0mh.tdf                            ;         ;
+; db/alt_u_div_23f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/alt_u_div_23f.tdf                                  ;         ;
+; db/lpm_divide_c8m.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/lpm_divide_c8m.tdf                                 ;         ;
+; db/sign_div_unsign_jnh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/sign_div_unsign_jnh.tdf                            ;         ;
+; db/alt_u_div_86f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/alt_u_div_86f.tdf                                  ;         ;
+; db/lpm_divide_1gm.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/lpm_divide_1gm.tdf                                 ;         ;
+; db/sign_div_unsign_bnh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/sign_div_unsign_bnh.tdf                            ;         ;
+; db/alt_u_div_n5f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/alt_u_div_n5f.tdf                                  ;         ;
+; db/lpm_divide_4gm.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/lpm_divide_4gm.tdf                                 ;         ;
+; db/sign_div_unsign_enh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/sign_div_unsign_enh.tdf                            ;         ;
+; db/alt_u_div_u5f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/alt_u_div_u5f.tdf                                  ;         ;
+; db/lpm_divide_7gm.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/lpm_divide_7gm.tdf                                 ;         ;
+; db/sign_div_unsign_hnh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/sign_div_unsign_hnh.tdf                            ;         ;
+; db/alt_u_div_46f.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/alt_u_div_46f.tdf                                  ;         ;
+; db/lpm_divide_05m.tdf            ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/lpm_divide_05m.tdf                                 ;         ;
+; db/sign_div_unsign_7kh.tdf       ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/sign_div_unsign_7kh.tdf                            ;         ;
+; db/alt_u_div_gve.tdf             ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/alt_u_div_gve.tdf                                  ;         ;
+; lpm_mult.tdf                     ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mult.tdf        ;         ;
+; lpm_add_sub.inc                  ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_add_sub.inc     ;         ;
+; multcore.inc                     ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/multcore.inc        ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/bypassff.inc        ;         ;
+; altshift.inc                     ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altshift.inc        ;         ;
+; db/mult_7ct.tdf                  ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/mult_7ct.tdf                                       ;         ;
+; db/mult_uat.tdf                  ; yes             ; Auto-Generated Megafunction        ; D:/TaxiMete-3.0/db/mult_uat.tdf                                       ;         ;
 +----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+---------+
 
 
@@ -265,28 +278,28 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-----------------------------+
 ; Resource                                    ; Usage                       ;
 +---------------------------------------------+-----------------------------+
-; Estimated Total logic elements              ; 7,642                       ;
+; Estimated Total logic elements              ; 7,201                       ;
 ;                                             ;                             ;
-; Total combinational functions               ; 7641                        ;
+; Total combinational functions               ; 7200                        ;
 ; Logic element usage by number of LUT inputs ;                             ;
-;     -- 4 input functions                    ; 2014                        ;
-;     -- 3 input functions                    ; 2018                        ;
-;     -- <=2 input functions                  ; 3609                        ;
+;     -- 4 input functions                    ; 1810                        ;
+;     -- 3 input functions                    ; 2152                        ;
+;     -- <=2 input functions                  ; 3238                        ;
 ;                                             ;                             ;
 ; Logic elements by mode                      ;                             ;
-;     -- normal mode                          ; 5053                        ;
-;     -- arithmetic mode                      ; 2588                        ;
+;     -- normal mode                          ; 4879                        ;
+;     -- arithmetic mode                      ; 2321                        ;
 ;                                             ;                             ;
 ; Total registers                             ; 196                         ;
 ;     -- Dedicated logic registers            ; 196                         ;
 ;     -- I/O registers                        ; 0                           ;
 ;                                             ;                             ;
 ; I/O pins                                    ; 81                          ;
-; Embedded Multiplier 9-bit elements          ; 0                           ;
+; Embedded Multiplier 9-bit elements          ; 8                           ;
 ; Maximum fan-out node                        ; COUNT:inst7|\PLAST:CNT[2]~2 ;
 ; Maximum fan-out                             ; 123                         ;
-; Total fan-out                               ; 21372                       ;
-; Average fan-out                             ; 2.70                        ;
+; Total fan-out                               ; 20255                       ;
+; Average fan-out                             ; 2.71                        ;
 +---------------------------------------------+-----------------------------+
 
 
@@ -295,14 +308,14 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                ; Library Name ;
 +-------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------+--------------+
-; |taxi                                     ; 7641 (3)          ; 196 (0)      ; 0           ; 0            ; 0       ; 0         ; 81   ; 0            ; |taxi                                                                                                              ; work         ;
+; |taxi                                     ; 7200 (5)          ; 196 (0)      ; 0           ; 8            ; 0       ; 4         ; 81   ; 0            ; |taxi                                                                                                              ; work         ;
 ;    |CLOCK_H:inst4|                        ; 16 (16)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|CLOCK_H:inst4                                                                                                ; work         ;
 ;    |CLOCK_M:inst3|                        ; 14 (14)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|CLOCK_M:inst3                                                                                                ; work         ;
-;    |COUNT:inst7|                          ; 7344 (907)        ; 136 (136)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7                                                                                                  ; work         ;
-;       |lpm_divide:Div0|                   ; 506 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div0                                                                                  ; work         ;
-;          |lpm_divide_3gm:auto_generated|  ; 506 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div0|lpm_divide_3gm:auto_generated                                                    ; work         ;
-;             |sign_div_unsign_dnh:divider| ; 506 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div0|lpm_divide_3gm:auto_generated|sign_div_unsign_dnh:divider                        ; work         ;
-;                |alt_u_div_s5f:divider|    ; 506 (506)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div0|lpm_divide_3gm:auto_generated|sign_div_unsign_dnh:divider|alt_u_div_s5f:divider  ; work         ;
+;    |COUNT:inst7|                          ; 6901 (455)        ; 136 (136)    ; 0           ; 8            ; 0       ; 4         ; 0    ; 0            ; |taxi|COUNT:inst7                                                                                                  ; work         ;
+;       |lpm_divide:Div0|                   ; 515 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div0                                                                                  ; work         ;
+;          |lpm_divide_3gm:auto_generated|  ; 515 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div0|lpm_divide_3gm:auto_generated                                                    ; work         ;
+;             |sign_div_unsign_dnh:divider| ; 515 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div0|lpm_divide_3gm:auto_generated|sign_div_unsign_dnh:divider                        ; work         ;
+;                |alt_u_div_s5f:divider|    ; 515 (515)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div0|lpm_divide_3gm:auto_generated|sign_div_unsign_dnh:divider|alt_u_div_s5f:divider  ; work         ;
 ;       |lpm_divide:Div10|                  ; 134 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div10                                                                                 ; work         ;
 ;          |lpm_divide_eem:auto_generated|  ; 134 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div10|lpm_divide_eem:auto_generated                                                   ; work         ;
 ;             |sign_div_unsign_olh:divider| ; 134 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Div10|lpm_divide_eem:auto_generated|sign_div_unsign_olh:divider                       ; work         ;
@@ -427,6 +440,14 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |lpm_divide_28m:auto_generated|  ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod9|lpm_divide_28m:auto_generated                                                    ; work         ;
 ;             |sign_div_unsign_9nh:divider| ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod9|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider                        ; work         ;
 ;                |alt_u_div_k5f:divider|    ; 33 (33)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_divide:Mod9|lpm_divide_28m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_k5f:divider  ; work         ;
+;       |lpm_mult:Mult0|                    ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_mult:Mult0                                                                                   ; work         ;
+;          |mult_uat:auto_generated|        ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_mult:Mult0|mult_uat:auto_generated                                                           ; work         ;
+;       |lpm_mult:Mult1|                    ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_mult:Mult1                                                                                   ; work         ;
+;          |mult_7ct:auto_generated|        ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_mult:Mult1|mult_7ct:auto_generated                                                           ; work         ;
+;       |lpm_mult:Mult2|                    ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_mult:Mult2                                                                                   ; work         ;
+;          |mult_uat:auto_generated|        ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_mult:Mult2|mult_uat:auto_generated                                                           ; work         ;
+;       |lpm_mult:Mult3|                    ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_mult:Mult3                                                                                   ; work         ;
+;          |mult_uat:auto_generated|        ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |taxi|COUNT:inst7|lpm_mult:Mult3|mult_uat:auto_generated                                                           ; work         ;
 ;    |FD2:inst1|                            ; 5 (5)             ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|FD2:inst1                                                                                                    ; work         ;
 ;    |FD3:inst22|                           ; 4 (4)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|FD3:inst22                                                                                                   ; work         ;
 ;    |FD:inst|                              ; 39 (39)           ; 24 (24)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|FD:inst                                                                                                      ; work         ;
@@ -441,6 +462,24 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;    |TRANS:inst9|                          ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |taxi|TRANS:inst9                                                                                                  ; work         ;
 +-------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis DSP Block Usage Summary        ;
++---------------------------------------+-------------+
+; Statistic                             ; Number Used ;
++---------------------------------------+-------------+
+; Simple Multipliers (9-bit)            ; 0           ;
+; Simple Multipliers (18-bit)           ; 4           ;
+; Embedded Multiplier Blocks            ; --          ;
+; Embedded Multiplier 9-bit elements    ; 8           ;
+; Signed Embedded Multipliers           ; 0           ;
+; Unsigned Embedded Multipliers         ; 4           ;
+; Mixed Sign Embedded Multipliers       ; 0           ;
+; Variable Sign Embedded Multipliers    ; 0           ;
+; Dedicated Input Shift Register Chains ; 0           ;
++---------------------------------------+-------------+
+Note: number of Embedded Multiplier Blocks used is only available after a successful fit.
 
 
 Encoding Type:  One-Hot
@@ -509,8 +548,8 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
 ; Total registers                              ; 196   ;
-; Number of registers using Synchronous Clear  ; 30    ;
-; Number of registers using Synchronous Load   ; 8     ;
+; Number of registers using Synchronous Clear  ; 23    ;
+; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 75    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 158   ;
@@ -534,18 +573,18 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output  ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |taxi|CLOCK_H:inst4|CNT1[0] ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |taxi|CLOCK_H:inst4|CNT0[0] ;
-; 3:1                ; 23 bits   ; 46 LEs        ; 23 LEs               ; 23 LEs                 ; Yes        ; |taxi|FD:inst|TEMP1[7]      ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |taxi|FD2:inst1|TEMP1[2]    ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |taxi|CLOCK_H:inst4|CNT1[2] ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |taxi|CLOCK_H:inst4|CNT0[2] ;
+; 3:1                ; 23 bits   ; 46 LEs        ; 23 LEs               ; 23 LEs                 ; Yes        ; |taxi|FD:inst|TEMP1[19]     ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |taxi|FD2:inst1|TEMP1[0]    ;
 ; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |taxi|FD3:inst22|TEMP1[0]   ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |taxi|COUNT:inst7|DIS[3]    ;
-; 18:1               ; 8 bits    ; 96 LEs        ; 80 LEs               ; 16 LEs                 ; Yes        ; |taxi|COUNT:inst7|CNT[24]   ;
-; 18:1               ; 15 bits   ; 180 LEs       ; 150 LEs              ; 30 LEs                 ; Yes        ; |taxi|COUNT:inst7|CNT[17]   ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; No         ; |taxi|MAIN:inst8|MM0[2]     ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; No         ; |taxi|MAIN:inst8|HH0        ;
-; 5:1                ; 14 bits   ; 42 LEs        ; 42 LEs               ; 0 LEs                  ; No         ; |taxi|COUNT:inst7|Mux10     ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |taxi|MAIN:inst8|Selector35 ;
+; 6:1                ; 11 bits   ; 44 LEs        ; 33 LEs               ; 11 LEs                 ; Yes        ; |taxi|COUNT:inst7|CNT[3]    ;
+; 6:1                ; 15 bits   ; 60 LEs        ; 45 LEs               ; 15 LEs                 ; Yes        ; |taxi|COUNT:inst7|CNT[8]    ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; No         ; |taxi|COUNT:inst7|AD        ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; No         ; |taxi|MAIN:inst8|MM0[1]     ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; No         ; |taxi|MAIN:inst8|HH1        ;
+; 5:1                ; 14 bits   ; 42 LEs        ; 42 LEs               ; 0 LEs                  ; No         ; |taxi|COUNT:inst7|Mux13     ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |taxi|MAIN:inst8|Selector23 ;
 ; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |taxi|MAIN:inst8|Selector15 ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
 
@@ -1286,6 +1325,146 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++-----------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_mult:Mult1       ;
++------------------------------------------------+------------+---------------------+
+; Parameter Name                                 ; Value      ; Type                ;
++------------------------------------------------+------------+---------------------+
+; AUTO_CARRY_CHAINS                              ; ON         ; AUTO_CARRY          ;
+; IGNORE_CARRY_BUFFERS                           ; OFF        ; IGNORE_CARRY        ;
+; AUTO_CASCADE_CHAINS                            ; ON         ; AUTO_CASCADE        ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF        ; IGNORE_CASCADE      ;
+; LPM_WIDTHA                                     ; 17         ; Untyped             ;
+; LPM_WIDTHB                                     ; 10         ; Untyped             ;
+; LPM_WIDTHP                                     ; 27         ; Untyped             ;
+; LPM_WIDTHR                                     ; 27         ; Untyped             ;
+; LPM_WIDTHS                                     ; 1          ; Untyped             ;
+; LPM_REPRESENTATION                             ; UNSIGNED   ; Untyped             ;
+; LPM_PIPELINE                                   ; 0          ; Untyped             ;
+; LATENCY                                        ; 0          ; Untyped             ;
+; INPUT_A_IS_CONSTANT                            ; NO         ; Untyped             ;
+; INPUT_B_IS_CONSTANT                            ; YES        ; Untyped             ;
+; USE_EAB                                        ; OFF        ; Untyped             ;
+; MAXIMIZE_SPEED                                 ; 5          ; Untyped             ;
+; DEVICE_FAMILY                                  ; Cyclone II ; Untyped             ;
+; CARRY_CHAIN                                    ; MANUAL     ; Untyped             ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT        ; TECH_MAPPER_APEX20K ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO       ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0          ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0          ; Untyped             ;
+; CBXI_PARAMETER                                 ; mult_7ct   ; Untyped             ;
+; INPUT_A_FIXED_VALUE                            ; Bx         ; Untyped             ;
+; INPUT_B_FIXED_VALUE                            ; Bx         ; Untyped             ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF        ; Untyped             ;
++------------------------------------------------+------------+---------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_mult:Mult0       ;
++------------------------------------------------+------------+---------------------+
+; Parameter Name                                 ; Value      ; Type                ;
++------------------------------------------------+------------+---------------------+
+; AUTO_CARRY_CHAINS                              ; ON         ; AUTO_CARRY          ;
+; IGNORE_CARRY_BUFFERS                           ; OFF        ; IGNORE_CARRY        ;
+; AUTO_CASCADE_CHAINS                            ; ON         ; AUTO_CASCADE        ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF        ; IGNORE_CASCADE      ;
+; LPM_WIDTHA                                     ; 17         ; Untyped             ;
+; LPM_WIDTHB                                     ; 9          ; Untyped             ;
+; LPM_WIDTHP                                     ; 26         ; Untyped             ;
+; LPM_WIDTHR                                     ; 26         ; Untyped             ;
+; LPM_WIDTHS                                     ; 1          ; Untyped             ;
+; LPM_REPRESENTATION                             ; UNSIGNED   ; Untyped             ;
+; LPM_PIPELINE                                   ; 0          ; Untyped             ;
+; LATENCY                                        ; 0          ; Untyped             ;
+; INPUT_A_IS_CONSTANT                            ; NO         ; Untyped             ;
+; INPUT_B_IS_CONSTANT                            ; YES        ; Untyped             ;
+; USE_EAB                                        ; OFF        ; Untyped             ;
+; MAXIMIZE_SPEED                                 ; 5          ; Untyped             ;
+; DEVICE_FAMILY                                  ; Cyclone II ; Untyped             ;
+; CARRY_CHAIN                                    ; MANUAL     ; Untyped             ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT        ; TECH_MAPPER_APEX20K ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO       ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0          ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0          ; Untyped             ;
+; CBXI_PARAMETER                                 ; mult_uat   ; Untyped             ;
+; INPUT_A_FIXED_VALUE                            ; Bx         ; Untyped             ;
+; INPUT_B_FIXED_VALUE                            ; Bx         ; Untyped             ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF        ; Untyped             ;
++------------------------------------------------+------------+---------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_mult:Mult3       ;
++------------------------------------------------+------------+---------------------+
+; Parameter Name                                 ; Value      ; Type                ;
++------------------------------------------------+------------+---------------------+
+; AUTO_CARRY_CHAINS                              ; ON         ; AUTO_CARRY          ;
+; IGNORE_CARRY_BUFFERS                           ; OFF        ; IGNORE_CARRY        ;
+; AUTO_CASCADE_CHAINS                            ; ON         ; AUTO_CASCADE        ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF        ; IGNORE_CASCADE      ;
+; LPM_WIDTHA                                     ; 17         ; Untyped             ;
+; LPM_WIDTHB                                     ; 9          ; Untyped             ;
+; LPM_WIDTHP                                     ; 26         ; Untyped             ;
+; LPM_WIDTHR                                     ; 26         ; Untyped             ;
+; LPM_WIDTHS                                     ; 1          ; Untyped             ;
+; LPM_REPRESENTATION                             ; UNSIGNED   ; Untyped             ;
+; LPM_PIPELINE                                   ; 0          ; Untyped             ;
+; LATENCY                                        ; 0          ; Untyped             ;
+; INPUT_A_IS_CONSTANT                            ; NO         ; Untyped             ;
+; INPUT_B_IS_CONSTANT                            ; YES        ; Untyped             ;
+; USE_EAB                                        ; OFF        ; Untyped             ;
+; MAXIMIZE_SPEED                                 ; 5          ; Untyped             ;
+; DEVICE_FAMILY                                  ; Cyclone II ; Untyped             ;
+; CARRY_CHAIN                                    ; MANUAL     ; Untyped             ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT        ; TECH_MAPPER_APEX20K ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO       ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0          ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0          ; Untyped             ;
+; CBXI_PARAMETER                                 ; mult_uat   ; Untyped             ;
+; INPUT_A_FIXED_VALUE                            ; Bx         ; Untyped             ;
+; INPUT_B_FIXED_VALUE                            ; Bx         ; Untyped             ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF        ; Untyped             ;
++------------------------------------------------+------------+---------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_mult:Mult2       ;
++------------------------------------------------+------------+---------------------+
+; Parameter Name                                 ; Value      ; Type                ;
++------------------------------------------------+------------+---------------------+
+; AUTO_CARRY_CHAINS                              ; ON         ; AUTO_CARRY          ;
+; IGNORE_CARRY_BUFFERS                           ; OFF        ; IGNORE_CARRY        ;
+; AUTO_CASCADE_CHAINS                            ; ON         ; AUTO_CASCADE        ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF        ; IGNORE_CASCADE      ;
+; LPM_WIDTHA                                     ; 17         ; Untyped             ;
+; LPM_WIDTHB                                     ; 9          ; Untyped             ;
+; LPM_WIDTHP                                     ; 26         ; Untyped             ;
+; LPM_WIDTHR                                     ; 26         ; Untyped             ;
+; LPM_WIDTHS                                     ; 1          ; Untyped             ;
+; LPM_REPRESENTATION                             ; UNSIGNED   ; Untyped             ;
+; LPM_PIPELINE                                   ; 0          ; Untyped             ;
+; LATENCY                                        ; 0          ; Untyped             ;
+; INPUT_A_IS_CONSTANT                            ; NO         ; Untyped             ;
+; INPUT_B_IS_CONSTANT                            ; YES        ; Untyped             ;
+; USE_EAB                                        ; OFF        ; Untyped             ;
+; MAXIMIZE_SPEED                                 ; 5          ; Untyped             ;
+; DEVICE_FAMILY                                  ; Cyclone II ; Untyped             ;
+; CARRY_CHAIN                                    ; MANUAL     ; Untyped             ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT        ; TECH_MAPPER_APEX20K ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO       ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0          ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0          ; Untyped             ;
+; CBXI_PARAMETER                                 ; mult_uat   ; Untyped             ;
+; INPUT_A_FIXED_VALUE                            ; Bx         ; Untyped             ;
+; INPUT_B_FIXED_VALUE                            ; Bx         ; Untyped             ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF        ; Untyped             ;
++------------------------------------------------+------------+---------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +------------------------------------------------------------------------------+
 ; Parameter Settings for Inferred Entity Instance: COUNT:inst7|lpm_divide:Mod8 ;
 +------------------------+----------------+------------------------------------+
@@ -1309,12 +1488,65 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++--------------------------------------------------------------------+
+; lpm_mult Parameter Settings by Entity Instance                     ;
++---------------------------------------+----------------------------+
+; Name                                  ; Value                      ;
++---------------------------------------+----------------------------+
+; Number of entity instances            ; 4                          ;
+; Entity Instance                       ; COUNT:inst7|lpm_mult:Mult1 ;
+;     -- LPM_WIDTHA                     ; 17                         ;
+;     -- LPM_WIDTHB                     ; 10                         ;
+;     -- LPM_WIDTHP                     ; 27                         ;
+;     -- LPM_REPRESENTATION             ; UNSIGNED                   ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                         ;
+;     -- INPUT_B_IS_CONSTANT            ; YES                        ;
+;     -- USE_EAB                        ; OFF                        ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                       ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                         ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                         ;
+; Entity Instance                       ; COUNT:inst7|lpm_mult:Mult0 ;
+;     -- LPM_WIDTHA                     ; 17                         ;
+;     -- LPM_WIDTHB                     ; 9                          ;
+;     -- LPM_WIDTHP                     ; 26                         ;
+;     -- LPM_REPRESENTATION             ; UNSIGNED                   ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                         ;
+;     -- INPUT_B_IS_CONSTANT            ; YES                        ;
+;     -- USE_EAB                        ; OFF                        ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                       ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                         ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                         ;
+; Entity Instance                       ; COUNT:inst7|lpm_mult:Mult3 ;
+;     -- LPM_WIDTHA                     ; 17                         ;
+;     -- LPM_WIDTHB                     ; 9                          ;
+;     -- LPM_WIDTHP                     ; 26                         ;
+;     -- LPM_REPRESENTATION             ; UNSIGNED                   ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                         ;
+;     -- INPUT_B_IS_CONSTANT            ; YES                        ;
+;     -- USE_EAB                        ; OFF                        ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                       ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                         ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                         ;
+; Entity Instance                       ; COUNT:inst7|lpm_mult:Mult2 ;
+;     -- LPM_WIDTHA                     ; 17                         ;
+;     -- LPM_WIDTHB                     ; 9                          ;
+;     -- LPM_WIDTHP                     ; 26                         ;
+;     -- LPM_REPRESENTATION             ; UNSIGNED                   ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                         ;
+;     -- INPUT_B_IS_CONSTANT            ; YES                        ;
+;     -- USE_EAB                        ; OFF                        ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                       ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                         ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                         ;
++---------------------------------------+----------------------------+
+
+
 +-------------------------------+
 ; Elapsed Time Per Partition    ;
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:12     ;
+; Top            ; 00:00:08     ;
 +----------------+--------------+
 
 
@@ -1324,7 +1556,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sat Apr 26 00:54:38 2025
+    Info: Processing started: Tue Apr 29 15:27:05 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off taxi -c taxi
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file fd.vhd
@@ -1389,17 +1621,17 @@ Info (10041): Inferred latch for "CT1" at SWT.vhd(13)
 Info (10041): Inferred latch for "CT0" at SWT.vhd(13)
 Info (12128): Elaborating entity "FD3" for hierarchy "FD3:inst22"
 Info (12128): Elaborating entity "COUNT" for hierarchy "COUNT:inst7"
-Warning (10492): VHDL Process Statement warning at COUNT.vhd(102): signal "CNT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at COUNT.vhd(103): signal "CNT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at COUNT.vhd(104): signal "CNT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at COUNT.vhd(105): signal "CNT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at COUNT.vhd(107): signal "DIS" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at COUNT.vhd(108): signal "DIS" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at COUNT.vhd(109): signal "DIS" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at COUNT.vhd(110): signal "DIS" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at COUNT.vhd(97): signal "CNT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at COUNT.vhd(98): signal "CNT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at COUNT.vhd(99): signal "CNT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at COUNT.vhd(100): signal "CNT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at COUNT.vhd(102): signal "DIS" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at COUNT.vhd(103): signal "DIS" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at COUNT.vhd(104): signal "DIS" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at COUNT.vhd(105): signal "DIS" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10631): VHDL Process Statement warning at COUNT.vhd(39): inferring latch(es) for signal or variable "QIBU", which holds its previous value in one or more paths through the process
-Warning (10492): VHDL Process Statement warning at COUNT.vhd(137): signal "P" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at COUNT.vhd(140): signal "LAST_ARRAY" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at COUNT.vhd(132): signal "P" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at COUNT.vhd(135): signal "LAST_ARRAY" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Info (10041): Inferred latch for "QIBU[0]" at COUNT.vhd(39)
 Info (10041): Inferred latch for "QIBU[1]" at COUNT.vhd(39)
 Info (10041): Inferred latch for "QIBU[2]" at COUNT.vhd(39)
@@ -1434,7 +1666,7 @@ Info (12128): Elaborating entity "TRANS" for hierarchy "TRANS:inst9"
 Warning (19016): Clock multiplexers are found and protected
     Warning (19017): Found clock multiplexer CLOCK_M:inst3|MCLK
     Warning (19017): Found clock multiplexer CLOCK_H:inst4|MCLK
-Info (278001): Inferred 33 megafunctions from design logic
+Info (278001): Inferred 37 megafunctions from design logic
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod12"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Div0"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod0"
@@ -1467,6 +1699,10 @@ Info (278001): Inferred 33 megafunctions from design logic
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod7"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod13"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod14"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "COUNT:inst7|Mult1"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "COUNT:inst7|Mult0"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "COUNT:inst7|Mult3"
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "COUNT:inst7|Mult2"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "COUNT:inst7|Mod8"
 Info (12130): Elaborated megafunction instantiation "COUNT:inst7|lpm_divide:Mod12"
 Info (12133): Instantiated megafunction "COUNT:inst7|lpm_divide:Mod12" with the following parameter:
@@ -1652,6 +1888,54 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/sign
     Info (12023): Found entity 1: sign_div_unsign_7kh
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_gve.tdf
     Info (12023): Found entity 1: alt_u_div_gve
+Info (12130): Elaborated megafunction instantiation "COUNT:inst7|lpm_mult:Mult1"
+Info (12133): Instantiated megafunction "COUNT:inst7|lpm_mult:Mult1" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "17"
+    Info (12134): Parameter "LPM_WIDTHB" = "10"
+    Info (12134): Parameter "LPM_WIDTHP" = "27"
+    Info (12134): Parameter "LPM_WIDTHR" = "27"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_7ct.tdf
+    Info (12023): Found entity 1: mult_7ct
+Info (12130): Elaborated megafunction instantiation "COUNT:inst7|lpm_mult:Mult0"
+Info (12133): Instantiated megafunction "COUNT:inst7|lpm_mult:Mult0" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "17"
+    Info (12134): Parameter "LPM_WIDTHB" = "9"
+    Info (12134): Parameter "LPM_WIDTHP" = "26"
+    Info (12134): Parameter "LPM_WIDTHR" = "26"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_uat.tdf
+    Info (12023): Found entity 1: mult_uat
+Info (12130): Elaborated megafunction instantiation "COUNT:inst7|lpm_mult:Mult3"
+Info (12133): Instantiated megafunction "COUNT:inst7|lpm_mult:Mult3" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "17"
+    Info (12134): Parameter "LPM_WIDTHB" = "9"
+    Info (12134): Parameter "LPM_WIDTHP" = "26"
+    Info (12134): Parameter "LPM_WIDTHR" = "26"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+Info (12130): Elaborated megafunction instantiation "COUNT:inst7|lpm_mult:Mult2"
+Info (12133): Instantiated megafunction "COUNT:inst7|lpm_mult:Mult2" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "17"
+    Info (12134): Parameter "LPM_WIDTHB" = "9"
+    Info (12134): Parameter "LPM_WIDTHP" = "26"
+    Info (12134): Parameter "LPM_WIDTHR" = "26"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "YES"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
 Info (13025): Duplicate LATCH primitives merged into single LATCH primitive
     Info (13026): Duplicate LATCH primitive "COUNT:inst7|QIBU[20]" merged with LATCH primitive "COUNT:inst7|QIBU[14]"
     Info (13026): Duplicate LATCH primitive "COUNT:inst7|QIBU[21]" merged with LATCH primitive "COUNT:inst7|QIBU[15]"
@@ -1663,7 +1947,6 @@ Warning (13004): Presettable and clearable registers converted to equivalent cir
     Warning (13310): Register "COUNT:inst7|\PLAST:CNT[2]" is converted into an equivalent circuit using register "COUNT:inst7|\PLAST:CNT[2]~_emulated" and latch "COUNT:inst7|\PLAST:CNT[2]~1"
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "dot0" is stuck at VCC
-    Warning (13410): Pin "dot1" is stuck at GND
     Warning (13410): Pin "dot2" is stuck at VCC
     Warning (13410): Pin "dot3" is stuck at VCC
     Warning (13410): Pin "dot4" is stuck at VCC
@@ -1738,14 +2021,15 @@ Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 1 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "SP1"
-Info (21057): Implemented 7723 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 7309 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 17 input pins
     Info (21059): Implemented 64 output pins
-    Info (21061): Implemented 7642 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 35 warnings
-    Info: Peak virtual memory: 4803 megabytes
-    Info: Processing ended: Sat Apr 26 00:54:55 2025
-    Info: Elapsed time: 00:00:17
-    Info: Total CPU time (on all processors): 00:00:16
+    Info (21061): Implemented 7220 logic cells
+    Info (21062): Implemented 8 DSP elements
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 34 warnings
+    Info: Peak virtual memory: 4822 megabytes
+    Info: Processing ended: Tue Apr 29 15:27:15 2025
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:11
 
 

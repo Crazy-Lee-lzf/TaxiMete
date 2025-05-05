@@ -3,107 +3,107 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow Model Setup 'MAIN:inst8|CS.SRUN2'
-Slack : -47.856
-TNS   : -2434.078
+Slack : -49.244
+TNS   : -2513.938
 
 Type  : Slow Model Setup 'FD2:inst1|Q1'
-Slack : -7.862
-TNS   : -309.944
-
-Type  : Slow Model Setup 'MAIN:inst8|CS.SCT0'
-Slack : -5.975
-TNS   : -96.647
-
-Type  : Slow Model Setup 'KEY3'
-Slack : -5.893
-TNS   : -78.141
+Slack : -16.456
+TNS   : -452.322
 
 Type  : Slow Model Setup 'MAIN:inst8|CS.SCT1'
-Slack : -5.865
-TNS   : -86.521
+Slack : -6.713
+TNS   : -95.303
 
-Type  : Slow Model Setup 'MAIN:inst8|CS.SLAST'
-Slack : -5.343
-TNS   : -15.920
+Type  : Slow Model Setup 'MAIN:inst8|CS.SCT0'
+Slack : -6.599
+TNS   : -96.470
 
 Type  : Slow Model Setup 'CLK'
-Slack : -4.706
-TNS   : -106.372
+Slack : -4.710
+TNS   : -105.970
+
+Type  : Slow Model Setup 'MAIN:inst8|CS.SLAST'
+Slack : -4.615
+TNS   : -13.186
+
+Type  : Slow Model Setup 'KEY3'
+Slack : -4.286
+TNS   : -51.350
 
 Type  : Slow Model Setup 'CT0'
-Slack : -2.772
-TNS   : -17.397
+Slack : -2.969
+TNS   : -17.105
 
 Type  : Slow Model Setup 'FD:inst|Q1'
-Slack : -1.170
-TNS   : -5.132
+Slack : -1.952
+TNS   : -9.963
 
 Type  : Slow Model Hold 'KEY3'
-Slack : -7.036
-TNS   : -33.833
-
-Type  : Slow Model Hold 'MAIN:inst8|CS.SCT0'
-Slack : -4.874
-TNS   : -39.601
+Slack : -7.559
+TNS   : -52.231
 
 Type  : Slow Model Hold 'MAIN:inst8|CS.SCT1'
-Slack : -4.812
-TNS   : -40.679
+Slack : -6.287
+TNS   : -47.546
 
-Type  : Slow Model Hold 'FD:inst|Q1'
-Slack : -3.385
-TNS   : -21.101
+Type  : Slow Model Hold 'MAIN:inst8|CS.SCT0'
+Slack : -5.881
+TNS   : -46.381
 
 Type  : Slow Model Hold 'CT0'
-Slack : -3.307
-TNS   : -49.325
+Slack : -3.480
+TNS   : -53.794
+
+Type  : Slow Model Hold 'FD:inst|Q1'
+Slack : -2.196
+TNS   : -11.552
 
 Type  : Slow Model Hold 'FD2:inst1|Q1'
-Slack : -1.137
-TNS   : -25.386
+Slack : -0.622
+TNS   : -13.498
 
 Type  : Slow Model Hold 'MAIN:inst8|CS.SRUN2'
 Slack : 0.391
 TNS   : 0.000
 
 Type  : Slow Model Hold 'CLK'
-Slack : 0.538
+Slack : 0.543
 TNS   : 0.000
 
 Type  : Slow Model Hold 'MAIN:inst8|CS.SLAST'
-Slack : 2.392
+Slack : 1.956
 TNS   : 0.000
 
 Type  : Slow Model Recovery 'MAIN:inst8|CS.SRUN2'
-Slack : -0.557
-TNS   : -7.798
-
-Type  : Slow Model Recovery 'FD2:inst1|Q1'
-Slack : 1.181
+Slack : 0.638
 TNS   : 0.000
 
 Type  : Slow Model Recovery 'FD:inst|Q1'
-Slack : 2.190
+Slack : 1.086
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'FD2:inst1|Q1'
+Slack : 1.412
 TNS   : 0.000
 
 Type  : Slow Model Recovery 'KEY3'
-Slack : 6.068
+Slack : 7.336
 TNS   : 0.000
 
 Type  : Slow Model Removal 'KEY3'
-Slack : -5.798
-TNS   : -17.394
-
-Type  : Slow Model Removal 'FD:inst|Q1'
-Slack : -2.016
-TNS   : -2.016
+Slack : -7.066
+TNS   : -21.198
 
 Type  : Slow Model Removal 'FD2:inst1|Q1'
-Slack : -1.294
-TNS   : -54.103
+Slack : -1.523
+TNS   : -62.382
+
+Type  : Slow Model Removal 'FD:inst|Q1'
+Slack : -0.946
+TNS   : -0.946
 
 Type  : Slow Model Removal 'MAIN:inst8|CS.SRUN2'
-Slack : 1.327
+Slack : 0.132
 TNS   : 0.000
 
 Type  : Slow Model Minimum Pulse Width 'CLK'
@@ -147,107 +147,107 @@ Slack : 0.500
 TNS   : 0.000
 
 Type  : Fast Model Setup 'MAIN:inst8|CS.SRUN2'
-Slack : -20.906
-TNS   : -1046.226
+Slack : -21.649
+TNS   : -1086.835
 
 Type  : Fast Model Setup 'FD2:inst1|Q1'
-Slack : -3.239
-TNS   : -120.687
-
-Type  : Fast Model Setup 'MAIN:inst8|CS.SCT0'
-Slack : -2.969
-TNS   : -38.652
+Slack : -6.159
+TNS   : -159.166
 
 Type  : Fast Model Setup 'MAIN:inst8|CS.SCT1'
-Slack : -2.903
-TNS   : -34.951
+Slack : -3.351
+TNS   : -40.109
+
+Type  : Fast Model Setup 'MAIN:inst8|CS.SCT0'
+Slack : -3.283
+TNS   : -39.450
 
 Type  : Fast Model Setup 'KEY3'
-Slack : -2.607
-TNS   : -31.613
-
-Type  : Fast Model Setup 'MAIN:inst8|CS.SLAST'
-Slack : -1.867
-TNS   : -5.565
+Slack : -2.158
+TNS   : -18.375
 
 Type  : Fast Model Setup 'CLK'
-Slack : -1.509
-TNS   : -33.251
+Slack : -1.512
+TNS   : -33.125
+
+Type  : Fast Model Setup 'MAIN:inst8|CS.SLAST'
+Slack : -1.478
+TNS   : -4.154
 
 Type  : Fast Model Setup 'CT0'
-Slack : -1.226
-TNS   : -2.343
+Slack : -1.306
+TNS   : -2.582
 
 Type  : Fast Model Setup 'FD:inst|Q1'
-Slack : -0.056
-TNS   : -0.056
+Slack : -0.517
+TNS   : -1.953
 
 Type  : Fast Model Hold 'KEY3'
-Slack : -3.657
-TNS   : -16.236
-
-Type  : Fast Model Hold 'MAIN:inst8|CS.SCT0'
-Slack : -2.634
-TNS   : -20.882
+Slack : -4.002
+TNS   : -25.075
 
 Type  : Fast Model Hold 'MAIN:inst8|CS.SCT1'
-Slack : -2.577
-TNS   : -20.866
+Slack : -3.342
+TNS   : -25.516
 
-Type  : Fast Model Hold 'FD:inst|Q1'
-Slack : -2.007
-TNS   : -13.941
+Type  : Fast Model Hold 'MAIN:inst8|CS.SCT0'
+Slack : -3.191
+TNS   : -25.277
 
 Type  : Fast Model Hold 'CT0'
-Slack : -1.727
-TNS   : -24.487
+Slack : -1.866
+TNS   : -29.176
+
+Type  : Fast Model Hold 'FD:inst|Q1'
+Slack : -1.395
+TNS   : -8.770
 
 Type  : Fast Model Hold 'FD2:inst1|Q1'
-Slack : -0.863
-TNS   : -27.223
+Slack : -0.620
+TNS   : -21.734
 
 Type  : Fast Model Hold 'MAIN:inst8|CS.SRUN2'
 Slack : 0.215
 TNS   : 0.000
 
 Type  : Fast Model Hold 'CLK'
-Slack : 0.247
+Slack : 0.248
 TNS   : 0.000
 
 Type  : Fast Model Hold 'MAIN:inst8|CS.SLAST'
-Slack : 1.202
+Slack : 0.992
 TNS   : 0.000
 
 Type  : Fast Model Recovery 'MAIN:inst8|CS.SRUN2'
-Slack : 0.148
+Slack : 0.784
 TNS   : 0.000
 
 Type  : Fast Model Recovery 'FD2:inst1|Q1'
-Slack : 0.863
+Slack : 0.989
 TNS   : 0.000
 
 Type  : Fast Model Recovery 'FD:inst|Q1'
-Slack : 1.660
+Slack : 1.097
 TNS   : 0.000
 
 Type  : Fast Model Recovery 'KEY3'
-Slack : 2.991
+Slack : 3.673
 TNS   : 0.000
 
 Type  : Fast Model Removal 'KEY3'
-Slack : -2.611
-TNS   : -7.833
-
-Type  : Fast Model Removal 'FD:inst|Q1'
-Slack : -1.346
-TNS   : -1.346
+Slack : -3.293
+TNS   : -9.879
 
 Type  : Fast Model Removal 'FD2:inst1|Q1'
-Slack : -0.656
-TNS   : -27.748
+Slack : -0.781
+TNS   : -32.500
+
+Type  : Fast Model Removal 'FD:inst|Q1'
+Slack : -0.770
+TNS   : -0.770
 
 Type  : Fast Model Removal 'MAIN:inst8|CS.SRUN2'
-Slack : 0.732
+Slack : 0.096
 TNS   : 0.000
 
 Type  : Fast Model Minimum Pulse Width 'CLK'

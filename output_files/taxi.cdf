@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP2C70F896) Path("D:/FPGA/taxi/output_files/") File("taxi.sof") MfrSpec(OpMask(1));
+		Device PartName(EP2C70F896) Path("D:/TaxiMete-3.0/output_files/") File("taxi.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

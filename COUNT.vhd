@@ -37,8 +37,11 @@ SIGNAL P : INTEGER RANGE 0 TO 4 := 0;
 BEGIN
 
 PROCESS(EN, CLK, RSET, A1, A2, LOAD)
-BEGIN
 
+VARIABLE AD : INTEGER RANGE 0 TO 99999999;
+VARIABLE AD1 : INTEGER RANGE 0 TO 99999999;
+
+BEGIN
 IF RSET = '1' THEN
 	DIS <= 0;
 	CNT <= 0;
@@ -57,43 +60,35 @@ IF RSET = '1' THEN
 	END IF;
 ELSIF EN = '1' THEN
 	IF CLK'EVENT AND CLK = '1' THEN 
-		IF SP2 = '1' THEN DIS <= DIS + 500;
-		ELSIF SP3 = '1' THEN DIS <= DIS + 1000;
-		ELSIF SP4 = '1' THEN DIS <= DIS + 1500;
-		ELSE DIS <= DIS + 375;
+		IF SP2 = '1' THEN AD := 500; 
+		ELSIF SP3 = '1' THEN AD := 1000;
+		ELSIF SP4 = '1' THEN AD := 1500;
+		ELSE AD := 375;
 		END IF;
-	
+		DIS <= DIS + AD;
 		IF (H1 = "0010" and H2 = "0011") OR (H1 = "0000" and H2 < 5) THEN
-			IF DIS <= 3000 THEN
+			IF DIS + AD <= 3000 THEN
 				CNT <= QIBU;
-			ELSIF DIS <= 15000 THEN
-				IF SP2 = '1' THEN CNT <= CNT + (500 * 351);
-				ELSIF SP3 = '1' THEN CNT <= CNT + (1000 * 351);
-				ELSIF SP4 = '1' THEN CNT <= CNT + (1500 * 351);
-				ELSE CNT <= CNT + (375 * 351);
-				END IF;
+			ELSIF DIS + AD <= 15000 THEN
+				AD1 := (AD + DIS - 3000);
+				IF(AD1 < AD) THEN AD := AD1; END IF;
+				CNT <= CNT + (AD * 351);
 			ELSE
-				IF SP2 = '1' THEN CNT <= CNT + (500 * 526);
-				ELSIF SP3 = '1' THEN CNT <= CNT + (1000 * 526);
-				ELSIF SP4 = '1' THEN CNT <= CNT + (1500 * 526);
-				ELSE CNT <= CNT + (375 * 526);
-				END IF;
+				AD1 := (AD + DIS - 15000);
+				IF(AD1 < AD) THEN AD := AD1; END IF;
+				CNT <= CNT + (AD * 526);
 			END IF;
 		ELSE
-			IF DIS <= 3000 THEN
+			IF DIS + AD <= 3000 THEN
 				CNT <= QIBU;
-			ELSIF DIS <= 15000 THEN
-				IF SP2 = '1' THEN CNT <= CNT + (500 * 270);
-				ELSIF SP3 = '1' THEN CNT <= CNT + (1000 * 270);
-				ELSIF SP4 = '1' THEN CNT <= CNT + (1500 * 270);
-				ELSE CNT <= CNT + (375 * 270);
-				END IF;
+			ELSIF DIS + AD <= 15000 THEN
+				AD1 := (AD + DIS - 3000);
+				IF(AD1 < AD) THEN AD := AD1; END IF;
+				CNT <= CNT + (AD * 270);
 			ELSE
-				IF SP2 = '1' THEN CNT <= CNT + (500 * 405);
-				ELSIF SP3 = '1' THEN CNT <= CNT + (1000 * 405);
-				ELSIF SP4 = '1' THEN CNT <= CNT + (1500 * 405);
-				ELSE CNT <= CNT + (375 * 407);
-				END IF;
+				AD1 := (AD + DIS - 15000);
+				IF(AD1 < AD) THEN AD := AD1; END IF;
+				CNT <= CNT + (AD * 405);
 			END IF;
 		END IF;
 	END IF;
